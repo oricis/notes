@@ -5,6 +5,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ***
 ## Contents
 
+* [Jekyll](./contents/jekyll.md)
 
 ***
 ***
