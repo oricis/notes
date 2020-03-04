@@ -1,0 +1,71 @@
+{
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on",
+    "files.autoSave": "onWindowChange",
+    "files.exclude": {
+        "**/*.spec.ts": true,
+        "**/*.js": true,
+        "**/*.json": true,
+        "**/*.scss": false,
+        "**/*.svg": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "telemetry.enableCrashReporter": false,
+    "guides.limit.maximum": 0.8,
+    "guides.enabled": true,
+    "guides.overrideDefault": true,
+    "workbench.colorTheme": "Monokai",
+    "todohighlight.keywords": [
+        {
+            "text": "BUG:",
+            "color": "white",
+            "backgroundColor": "red",
+        },
+        {
+            "text": "WARNING:",
+            "color": "red",
+            "backgroundColor": "yellow",
+        },
+        "DEBUG:",
+        {
+            "text": "FAQ:",
+            "color": "white",
+            "backgroundColor": "green",
+        },
+        {
+            "text": "FIXME:",
+            "color": "black",
+            "backgroundColor": "hotpink",
+        },
+        {
+            "text": "HACK:",
+            "color": "black",
+            "backgroundcolor": "blue",
+        },
+        {
+            "text": "NOBUG:",
+            "color": "white",
+            "backgroundColor": "darkred",
+        },
+        {
+            "text": "NOTE:",
+            "color": "black",
+            "backgroundColor": "#4aca6e",
+        },
+        "REVIEW:",
+        {
+            "text": "TODO:",
+            "color": "black",
+            "backgroundColor": "#fad189",
+        },
+    ],
+
+    "editor.rulers": [
+        72,
+        80
+    ]
+}
