@@ -25,10 +25,10 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### LAMP
 
-* [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
-* [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
+* [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
-
+* [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
+* [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
 
 ### Laravel
 

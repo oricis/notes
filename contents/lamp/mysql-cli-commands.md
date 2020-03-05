@@ -105,9 +105,21 @@
 
 ## Set a new root pw
 
-//TODO:
+> Use the system admin pw and sudo to access as root:
+
+    sudo mysql -u root -p
+
+
+> Select the database:
+
+    use mysql;
+
+
+> Set the new user root pw:
+
+    // TODO:
+    UPDATE user SET password=PASSWORD('12345') WHERE user='root';
 
 ***
-
 
 [Go to index](../../README.md)
