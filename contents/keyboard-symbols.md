@@ -1,0 +1,40 @@
+# Keyboard symbols
+
+
+    : (colon)
+    » (quote)
+    ; (semi colon)
+    ´ (apostrophe o single quote)
+    < (less than)
+    > (greater than)
+    ? (question mark)
+    , (comma)
+    . (dot, period or full stop)
+    ~ (tilde)
+    ! (exclamation mark)
+    @ (at)
+    # (number o hash)
+    $ (dollar)
+    % (percent)
+    ^ (caret)
+    & (ampersand)
+    * (asterisk)
+    ( (open o left parenthesis)
+    ) (close o right parenthesis)
+    _ (underscore o horizontal bar)
+    + (plus)
+    ` (acute)
+    - (dash o hyphen)
+    = (equals)
+    { (open o left curly brace)
+    } (close o right curly brace)
+    | (pipe o vertical bar)
+    [ (open o left square bracket)
+    ] (close o right square bracket)
+    \ (backslash)
+    / (slash)
+
+
+***
+
+[Go to index](../README.md)

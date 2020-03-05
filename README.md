@@ -23,14 +23,24 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [React: emit a click event to the father component](./contents/js/react/react-emit_a_click_event_to_the_father_component.md)
 
 
+### Laravel
+
+* [Laravel environment in Ubuntu 18.04](./contents/laravel/ubuntu-LAMP_and_laravel.md)
+
+
+### Markdown
+
+* [Markdown Tips](./contents/markdown/markdown.md)
+
+
 ### Miscelaneous
 
 * [Jekyll](./contents/jekyll.md)
+* [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 
 
 ### Ubuntu
 
-* [Ubuntu 18.04 - Set the LAMP / Laravel environment](./contents/so/ubuntu-LAMP_and_laravel.md)
 * [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
 
 ***
