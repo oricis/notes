@@ -1,17 +1,36 @@
-git log --graph --simplify-by-decoration --pretty=format:'%d' --all
-#Vista de las ramificaciones de Git en la terminal
+# Git commands - Branches
 
-gitk --all --date-order &
-#Vista de las ramificaciones de Git en la herramienta gr�fica
+***
 
-Renombrar ramas locales y remotas
 
-# Rename branch locally
-git branch -m old_branch new_branch
+## Show branches
 
-# Rename remote branch
-git push origin :old_branch                 # Delete the old branch
-git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+> Show Git branches in the terminal
+
+    git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+
+
+> Show Git branches in the graphic tool
+
+    gitk --all --date-order &
+
+
+***
+
+## Rename branches
+
+> Rename branch locally
+
+    git branch -m old_branch new_branch
+
+
+> Rename remote branch
+
+    # Delete the old branch
+    git push origin :old_branch
+
+    # Push the new branch, set local branch to track the new remote
+    git push --set-upstream origin new_branch
 
 
 ***
