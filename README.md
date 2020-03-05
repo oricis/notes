@@ -23,6 +23,13 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [React: emit a click event to the father component](./contents/js/react/react-emit_a_click_event_to_the_father_component.md)
 
 
+### LAMP
+
+* [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
+* [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
+* [MySQL Backups](./contents/lamp/mysql-backups.md)
+
+
 ### Laravel
 
 * [Laravel environment in Ubuntu 18.04](./contents/laravel/ubuntu-LAMP_and_laravel.md)

@@ -17,6 +17,24 @@ Por ejemplo:
 
 ***
 
+## Imprimir contenido de un fichero
+
+*Imprime en la terminal las 10 últimas líneas de un fichero de texto*
+
+    tail the_file_path
+
+
+***
+
+## Instalar paquetes / programas
+
+>Antes de comenzar a instalar:
+
+	apt-get update && apt-get upgrade
+
+
+***
+
 ## Listar ficheros ocultos de un directorio:
 
 	ls -d .!(|.)
