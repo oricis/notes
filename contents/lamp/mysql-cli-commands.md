@@ -7,6 +7,13 @@
     mysql>CREATE DATABASE xxx;
 
 
+## Delete a DB
+
+    mysql>DROP DATABASE database_name;
+
+*Once you delete the database it cannot be recovered.*
+
+
 ## Access / exit - MySQL CLI:
 
 *Access to mysql with administrative privileges.*
@@ -15,7 +22,7 @@
 
 > To exit:
 
-    exit;
+    mysql>exit;
 
 
 ***
@@ -24,28 +31,28 @@
 
 > Create the user:
 
-    CREATE USER 'user_name'@'localhost'
+    mysql>CREATE USER 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
 
 
 > Asign privileges to work with the database:
 
 
-    GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER
+    mysql>GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER
         ON database_name.*
         TO 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
-    FLUSH PRIVILEGES;
+    mysql>FLUSH PRIVILEGES;
 
 
 > Asign all the privileges for the database:
 
-    GRANT ALL PRIVILEGES
+    mysql>GRANT ALL PRIVILEGES
         ON database_name.*
         TO 'user_name'@'localhost'
         IDENTIFIED BY 'user_password'
         WITH GRANT OPTION;
-    FLUSH PRIVILEGES;
+    mysql>FLUSH PRIVILEGES;
 
 
 ***
@@ -54,12 +61,12 @@
 
 > Actual user:
 
-    SHOW GRANTS;
+    mysql>SHOW GRANTS;
 
 
 > Specific user:
 
-    SHOW GRANTS FOR 'user_name';
+    mysql>SHOW GRANTS FOR 'user_name';
 
 
 ***
@@ -77,11 +84,11 @@
 
 >Show all the users:
 
-    SELECT User FROM mysql.user;
+    mysql>SELECT User FROM mysql.user;
 
 >Show the table "user" field names:
 
-    DESC mysql.user;
+    mysql>DESC mysql.user;
 
 ***
 
@@ -89,36 +96,42 @@
 
 >List the databases:
 
-    SHOW databases;
+    mysql>SHOW databases;
 
 >List a database tables:
 
-    use the_database_name;
-    SHOW tables;
+    mysql>use the_database_name;
+    mysql>SHOW tables;
 
 >List the table fields:
 
-    DESC the_database_name.the_table_name;
+    mysql>DESC the_database_name.the_table_name;
 
 
 ***
 
-## Set a new root pw
+## Set a new user pw (no root)
 
-> Use the system admin pw and sudo to access as root:
+> Access as root (use the sudo pw):
 
     sudo mysql -u root -p
 
 
-> Select the database:
+> For MySQL 5.7.6 and later or MariaDB 10.1.20 and later type:
 
-    use mysql;
+    mysql>UPDATE mysql.user SET authentication_string=PASSWORD('the_password')
+        WHERE User='user_name' AND Host='localhost';
 
 
-> Set the new user root pw:
+> For MySQL 5.7.5 and earlier or MariaDB 10.1.20 and earlier type:
 
-    // TODO:
-    UPDATE user SET password=PASSWORD('12345') WHERE user='root';
+    mysql>SET PASSWORD FOR 'user_name'@'localhost' = PASSWORD('the_password');
+
+
+> Finally:
+
+    mysql>FLUSH PRIVILEGES;
+    mysql>exit;
 
 ***
 
