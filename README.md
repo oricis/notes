@@ -44,6 +44,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
+* [TODO Words](./contents/todo-words.md)
 
 
 ### Ubuntu
