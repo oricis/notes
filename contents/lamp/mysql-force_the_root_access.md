@@ -1,6 +1,8 @@
-# MySQL - Ubuntu
+# MySQL - Force the root auth
 
-How enter to mysql with root when the password is denied?
+***
+
+## Ubuntu - Access as root
 
 Use the mysql access command with *sudo* and the system admin pw:
 
@@ -10,4 +12,3 @@ Use the mysql access command with *sudo* and the system admin pw:
 ***
 
 [Go to index](../../README.md)
-
