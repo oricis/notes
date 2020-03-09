@@ -1,17 +1,30 @@
-# Configuración entorno LAMP / Laravel en Ubuntu
+# Setting the Ubuntu environment for Laravel
 ------------------------------------------------------------------
 
-Después de instalar el servidor (Apache, etc), PHP y mysql.
+Previously, you have to [install Apache, PHP and MySQL](./lamp-settings.md).
 
-Clonar el repositorio en `/var/www/html/laravel`
 
-Dar permisos directorio de trabajo:
+<br>
 
-    sudo chmod -R 755 /var/www/html/laravel
+> Set read permissions to the Apache root directory i.e /var/www/html/:
 
-    sudo chmod -R 777 /var/www/html/laravel/website-name/storage
+    sudo chmod -R 755 /var/www/html/
 
-    sudo chmod -R 777 /var/www/html/laravel/website-name/bootstrap/cache/
+
+> Create directory for Laravel projects:
+
+    sudo mkdir -m 755 /var/www/html/laravel
+
+
+> Clone your Laravel app into `/var/www/html/laravel`
+> o [create a new one](https://laravel.com/docs/5.8).
+
+
+> Set the permissions to the Laravel app:
+
+    sudo chmod -R 777 /var/www/html/laravel/your-app/storage
+    sudo chmod -R 777 /var/www/html/laravel/your-app/bootstrap/cache/
+
 
 ***
 
