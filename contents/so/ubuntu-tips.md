@@ -66,6 +66,41 @@ Por ejemplo:
 	cat /etc/hosts
 
 
+> Sobre un paquete instalado (requiere conexión):
+
+	apt show package_name
+
+*por ejemplo:*
+
+	apt show php
+
+
+> Servicios (activos e inactivos):
+
+	service --status-all
+
+	systemctl list-units -a
+
+
+> Servicios activos:
+
+	service --status-all | grep '\[ + \]'
+
+	systemctl list-units -a --state=active
+
+
+> Servicios inactivos:
+
+	service --status-all | grep '\[ - \]'
+
+	systemctl list-units -a --state=inactive
+
+
+> Servicios en ejecución:
+
+	systemctl list-units --type=service
+
+
 ***
 
 [Go to index](../../README.md)
