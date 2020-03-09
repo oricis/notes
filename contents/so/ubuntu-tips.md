@@ -35,9 +35,35 @@ Por ejemplo:
 
 ***
 
-## Listar ficheros ocultos de un directorio:
+## Listar ficheros de un directorio:
+
+> Ficheros visibles:
+
+	ls
+
+
+> Ficheros ocultos
 
 	ls -d .!(|.)
+
+
+> Todos los ficheros
+
+	ls -a
+
+
+***
+
+## Ver información del sistema
+
+> Sobre la distro actual
+
+	cat /etc/*release
+
+
+> Host actuales:
+
+	cat /etc/hosts
 
 
 ***
