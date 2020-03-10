@@ -52,6 +52,11 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [TODO Words](./contents/todo-words.md)
 
 
+### Resources
+
+* [Online tools](./contents/online-tools.md)
+
+
 ### Ubuntu
 
 * [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
