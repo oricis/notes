@@ -11,6 +11,10 @@ docker pull mysql
 docker pull node
 
 
+*Other resources:*
+
+* [Docker for Beginners course](https://kodekloud.com/p/docker-labs)
+
 ***
 
 ## Check the installed Docker version
@@ -53,6 +57,11 @@ The props must show:
     This message shows that your installation appears to be working correctly.
 
     ...
+
+
+> List commands and options:
+
+    docker --help
 
 
 ***
