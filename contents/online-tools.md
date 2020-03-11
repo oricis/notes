@@ -47,6 +47,24 @@
 
 ***
 
+## Playgrounds / Sandboxes
+
+* <a href="https://play.kotlinlang.org"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Kotlin Playground</a>
+* <a href="https://dillinger.io/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">MarkDown Editor</a>
+* <a href="https://playcode.io"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Play with HTML / JS / CSS</a>
+* <a href="http://sandbox.onlinephpfunctions.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">PHP Sandbox</a>
+
+
+***
+
 ## Site optimizations
 
 * <a href="https://tinypng.com"
@@ -79,11 +97,9 @@
 * <a href="https://www.mockaroo.com"
     rel="nofollow noopener noreferrer external"
     target="_blank">Mock data generator</a>
-
-
-* <a href="xxx"
+* <a href="https://office.live.com/start/Word.aspx"
     rel="nofollow noopener noreferrer external"
-    target="_blank">xxx</a>
+    target="_blank">Word online</a>
 
 
 ***
