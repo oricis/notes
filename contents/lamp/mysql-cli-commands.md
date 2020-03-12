@@ -4,12 +4,12 @@
 
 ## Create a BD
 
-    mysql>CREATE DATABASE xxx;
+    mysql> CREATE DATABASE xxx;
 
 
 ## Delete a DB
 
-    mysql>DROP DATABASE database_name;
+    mysql> DROP DATABASE database_name;
 
 *Once you delete the database it cannot be recovered.*
 
@@ -22,7 +22,7 @@
 
 > To exit:
 
-    mysql>exit;
+    mysql> exit;
 
 
 ***
@@ -31,28 +31,28 @@
 
 > Create the user:
 
-    mysql>CREATE USER 'user_name'@'localhost'
+    mysql> CREATE USER 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
 
 
 > Asign privileges to work with the database:
 
 
-    mysql>GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER
+    mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER
         ON database_name.*
         TO 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
-    mysql>FLUSH PRIVILEGES;
+    mysql> FLUSH PRIVILEGES;
 
 
 > Asign all the privileges for the database:
 
-    mysql>GRANT ALL PRIVILEGES
+    mysql> GRANT ALL PRIVILEGES
         ON database_name.*
         TO 'user_name'@'localhost'
         IDENTIFIED BY 'user_password'
         WITH GRANT OPTION;
-    mysql>FLUSH PRIVILEGES;
+    mysql> FLUSH PRIVILEGES;
 
 
 ***
@@ -61,12 +61,12 @@
 
 > Actual user:
 
-    mysql>SHOW GRANTS;
+    mysql> SHOW GRANTS;
 
 
 > Specific user:
 
-    mysql>SHOW GRANTS FOR 'user_name';
+    mysql> SHOW GRANTS FOR 'user_name';
 
 
 ***
@@ -84,28 +84,33 @@
 
 >Show all the users:
 
-    mysql>SELECT User FROM mysql.user;
+    mysql> SELECT User FROM mysql.user;
 
 >Show the table "user" field names:
 
-    mysql>DESC mysql.user;
+    mysql> DESC mysql.user;
 
 ***
 
 ## MySQL - Get general information
 
->List the databases:
+> List the databases:
 
-    mysql>SHOW databases;
+    mysql> SHOW databases;
 
->List a database tables:
+> List a database tables:
 
-    mysql>use the_database_name;
-    mysql>SHOW tables;
+    mysql> use the_database_name;
+    mysql> SHOW tables;
 
->List the table fields:
+> List the table fields:
 
-    mysql>DESC the_database_name.the_table_name;
+    mysql> DESC the_database_name.the_table_name;
+
+
+> Show the available engines:
+
+    mysql> SHOW ENGINES;
 
 
 ***
@@ -119,19 +124,19 @@
 
 > For MySQL 5.7.6 and later or MariaDB 10.1.20 and later type:
 
-    mysql>UPDATE mysql.user SET authentication_string=PASSWORD('the_password')
+    mysql> UPDATE mysql.user SET authentication_string=PASSWORD('the_password')
         WHERE User='user_name' AND Host='localhost';
 
 
 > For MySQL 5.7.5 and earlier or MariaDB 10.1.20 and earlier type:
 
-    mysql>SET PASSWORD FOR 'user_name'@'localhost' = PASSWORD('the_password');
+    mysql> SET PASSWORD FOR 'user_name'@'localhost' = PASSWORD('the_password');
 
 
 > Finally:
 
-    mysql>FLUSH PRIVILEGES;
-    mysql>exit;
+    mysql> FLUSH PRIVILEGES;
+    mysql> exit;
 
 ***
 
