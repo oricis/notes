@@ -1,6 +1,14 @@
 # Online Tools
 
 ***
+## Checkers ([Site checkers here](#site-checkers))
+
+* <a href="https://search.google.com/structured-data/testing-tool"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Comprobar datos estructurados</a>
+
+
+***
 
 ## Converters
 
@@ -65,6 +73,21 @@
 
 ***
 
+## Site checkers
+<span id="site-checkers"></span>
+* <a href="http://www.redirect-checker.org/bulk-redirect-checker.php"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Redirect checker (301 / 302)</a>
+* <a href="https://www.aditus.io/button-contrast-checker/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Button contrast checker (UX)</a>
+* <a href="https://www.drlinkcheck.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Site Link Checker</a>
+
+***
+
+
 ## Site optimizations
 
 * <a href="https://tinypng.com"
@@ -73,12 +96,6 @@
 * <a href="https://jakearchibald.github.io/svgomg"
     rel="nofollow noopener noreferrer external"
     target="_blank">SVG optimizer (Minify SVGs)</a>
-* <a href="https://www.aditus.io/button-contrast-checker/"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Button contrast checker (UX)</a>
-* <a href="https://www.drlinkcheck.com"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Site Link Checker</a>
 * <a href="https://www.xml-sitemaps.com/crawl.html"
     rel="nofollow noopener noreferrer external"
     target="_blank">XML sites generator</a>
