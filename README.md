@@ -18,6 +18,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### JavaScript
 
+* [Date and Time](./contents/js/js-times.md))
 * [ES6 - var, let, const, ...](./contents/js/ES6-vars.md)
 * [Types](./contents/js/js-types.md)
 * [Var declarations](./contents/js/js-var-declarations.md)
