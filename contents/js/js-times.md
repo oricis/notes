@@ -2,6 +2,14 @@
 
 ***
 
+## Libraries
+
+Parse, validate, manipulate, and display dates and times in JavaScript:
+
+[momentjs](https://momentjs.com/)
+
+***
+
 ## Get time and date as: "dd-mm-yyyy hh:mm:ss"
 
 > Compose the date and time (returns according to you timezone):
