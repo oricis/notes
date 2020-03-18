@@ -8,6 +8,31 @@ Parse, validate, manipulate, and display dates and times in JavaScript:
 
 [momentjs](https://momentjs.com/)
 
+
+***
+
+## Notes
+
+* UNIX timestamps vs. JavaScript/Java timestamps
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Unix_time):
+
+> *"Unix time (also known as Epoch time, POSIX time,[1] seconds since the Epoch,[2] or UNIX Epoch time[3]) is a system for describing a point in time. It is the number of seconds that have elapsed since the Unix epoch, that is the time 00:00:00 UTC on 1 January 1970, minus leap seconds"*.
+
+> *"Unix time is a single signed number which increments every second, without requiring the calculations to determine year, month, day of month, hour and minute required for intelligibility to humans"*.
+
+
+### Decimal representation of time
+
+The representation of one Unix time could be (in seconds):
+
+    1234567890
+
+The representation of one JS / Java time could be (in miliseseconds):
+
+    1234567890000
+
+
 ***
 
 ## Get time and date as: "dd-mm-yyyy hh:mm:ss"
