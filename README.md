@@ -40,6 +40,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Laravel
 
+* [Laravel - Cloning and running existing Apps](./contents/laravel/laravel-run-from-repo.md)
 * [Laravel environment in Ubuntu 18.04](./contents/laravel/ubuntu-LAMP_and_laravel.md)
 
 
