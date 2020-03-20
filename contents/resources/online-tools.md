@@ -110,6 +110,9 @@
 * <a href="https://www.draw.io"
     rel="nofollow noopener noreferrer external"
     target="_blank">Draw.io (Draw Diagrams)</a>
+* <a href="https://whiteboardfox.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">White board</a>
 * <a href="https://ihateregex.io"
     rel="nofollow noopener noreferrer external"
     target="_blank">Regex Searcher</a>
@@ -119,6 +122,10 @@
 * <a href="https://office.live.com/start/Word.aspx"
     rel="nofollow noopener noreferrer external"
     target="_blank">Word online</a>
+
+* <a href="https://monitor.firefox.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Check your email</a>
 
 
 ***
