@@ -51,14 +51,16 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Miscelaneous
 
+* [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [TODO Words](./contents/todo-words.md)
-
+* [Use of libraries from Github projects](./contents/github-raw-files.md)
 
 ### Resources
 
+* [My gists](https://gist.github.com/oricis)
 * [Online tools](./contents/resources/online-tools.md)
 
 
