@@ -32,6 +32,9 @@
 * <a href="http://www.colorzilla.com/gradient-editor"
     rel="nofollow noopener noreferrer external"
     target="_blank">Colorzilla (Color selector)</a>
+* <a href="https://app.creately.com/manage/project/home"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Diagrams editor</a>
 * <a href="https://realfavicongenerator.net"
     rel="nofollow noopener noreferrer external"
     target="_blank">Favicon generator</a>
@@ -59,6 +62,9 @@
 
 ## Playgrounds / Sandboxes
 
+* <a href="https://jsonplaceholder.typicode.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Fake JSON API</a>
 * <a href="https://play.kotlinlang.org"
     rel="nofollow noopener noreferrer external"
     target="_blank">Kotlin Playground</a>
@@ -71,7 +77,6 @@
 * <a href="http://sandbox.onlinephpfunctions.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">PHP Sandbox</a>
-
 
 ***
 
