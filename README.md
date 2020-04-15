@@ -21,6 +21,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Date and Time](./contents/js/js-times.md))
 * [ES6 - var, let, const, ...](./contents/js/ES6-vars.md)
 * [JS cheat-sheet](https://www.bitdegree.org/learn/javascript-cheat-sheet)
+* [JS Tips](./contents/js/js-tips.md)
 * [Types](./contents/js/js-types.md)
 * [Var declarations](./contents/js/js-var-declarations.md)
 
