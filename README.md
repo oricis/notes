@@ -20,6 +20,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Date and Time](./contents/js/js-times.md))
 * [ES6 - var, let, const, ...](./contents/js/ES6-vars.md)
+* [JS cheat-sheet](https://www.bitdegree.org/learn/javascript-cheat-sheet)
 * [Types](./contents/js/js-types.md)
 * [Var declarations](./contents/js/js-var-declarations.md)
 
@@ -62,6 +63,12 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [My gists](https://gist.github.com/oricis)
 * [Online tools](./contents/resources/online-tools.md)
+
+
+### Testing
+
+ * [Cypress doc](https://docs.cypress.io/)
+ * [Cypress commands](./contents/testing/cypress.md)
 
 
 ### Ubuntu
