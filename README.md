@@ -69,6 +69,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Security
 
+ * [Clickjacking Defense Script](./contents/security/frame-breaker-script.md)
  * [htaccess - Setting HTTP headers](./contents/security/htaccess-http-headers.md)
 
 

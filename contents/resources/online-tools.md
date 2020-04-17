@@ -92,9 +92,15 @@
 * <a href="https://search.google.com/search-console"
     rel="nofollow noopener noreferrer external"
     target="_blank">Google Search Console</a>
+* <a href="https://securityheaders.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Headers security</a>
 * <a href="https://hstspreload.org"
     rel="nofollow noopener noreferrer external"
     target="_blank">HSTS preload</a>
+* <a href="https://observatory.mozilla.org"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">observatory.mozilla.org</a>
 * <a href="http://www.redirect-checker.org/bulk-redirect-checker.php"
     rel="nofollow noopener noreferrer external"
     target="_blank">Redirect checker (301 / 302)</a>
