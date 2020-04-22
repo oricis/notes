@@ -1,5 +1,78 @@
 # Tips in Ubuntu Linux (18.04)
 
+*Commands for the bash shell.*
+
+## Tips
+
+    When we are writting a command, we can use the 'tab' key to autocomplete
+    the command. Push other time to watch the available command options.
+
+    Use the 'up' and 'down' keys to jump between the last used commands.
+    Use the 'left' and 'right' keys to move the cursor between words in the
+    actual command.
+
+    Use 'Ctrl' + 'R' and write a command word to reverse search it between
+    the used commands.
+
+
+***
+
+## Create / delete a var in the actual sesion
+
+> Create a  var
+
+	export HOLA='hello world'
+
+
+> Print & Result
+
+	echo $HOLA
+	hello world
+
+
+> Delete the var HOLA
+
+	unset HOLA
+
+
+***
+
+## Create / delete a permanent var in system
+
+*Add or delete the var in the file '/etc/environment'*
+
+	sudo nano /etc/environment
+
+> Save and exit (nano). Use key combinations:
+
+	Ctrl + O + Enter
+	Ctrl + X
+
+***
+
+
+## Create permanent aliases
+
+> Open .bashrc file:
+
+	sudo nano ~/.bashrc
+
+
+> Move down to the bottom of the file and add the aliases:
+
+	#Custom Aliases
+
+	alias rm='rm -i' # request confirmation before deleting a file
+
+
+> Save and exit (nano). Use key combinations:
+
+	Ctrl + O + Enter
+	Ctrl + X
+
+
+***
+
 ## Crear un enlace desde el escritorio
 
 Para crear un enlace a un directorio:
@@ -66,6 +139,11 @@ Por ejemplo:
 	cat /etc/hosts
 
 
+> Todas las variables de entorno del sistema
+
+	env
+
+
 > Sobre un paquete instalado (requiere conexión):
 
 	apt show package_name
@@ -99,6 +177,30 @@ Por ejemplo:
 > Servicios en ejecución:
 
 	systemctl list-units --type=service
+
+
+***
+
+## Where I am?
+
+> Actual location
+
+    pwd
+
+
+> Move to other locations
+
+    cd
+
+*Move to the beginning.  The directory where the propt was open.*
+
+    cd ..
+
+*Move to the parent directory*
+
+    cd /
+
+*Move to the root directory*
 
 
 ***
