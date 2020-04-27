@@ -26,8 +26,9 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Var declarations](./contents/js/js-var-declarations.md)
 
 
-### JavaScript - ReactJs
+### JavaScript
 
+* [Ionic 4](./contents/js/ionic/ionic.md)
 * [React: emit a click event to the father component](./contents/js/react/react-emit_a_click_event_to_the_father_component.md)
 
 
@@ -82,6 +83,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### Ubuntu
 
 * [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
+* [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 
 ***
 ***
