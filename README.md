@@ -30,6 +30,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Ionic 4](./contents/js/ionic/ionic.md)
 * [React: emit a click event to the father component](./contents/js/react/react-emit_a_click_event_to_the_father_component.md)
+* [¿Por qué la función se llama cada vez que el componente se renderiza?](https://es.reactjs.org/docs/faq-functions.html#why-is-my-function-being-called-every-time-the-component-renders)
 
 
 ### LAMP
