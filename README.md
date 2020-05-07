@@ -57,6 +57,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
+* [HTML attr: role](./contents/HTML-attr-role.md)
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [TODO Words](./contents/todo-words.md)
