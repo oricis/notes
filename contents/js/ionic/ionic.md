@@ -34,8 +34,8 @@ After create a project you can see the message:
 
 ## Run the App
 
-cd myAppName
-ionic serve
+    cd myAppName
+    ionic serve
 
 
 ***
