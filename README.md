@@ -10,6 +10,11 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Docker - The basics](./contents/containers/docker-basics.md)
 
 
+### CSS
+
+* [Generic reset CSS](https://raw.githubusercontent.com/oricis/notes/master/contents/css/reset.css)
+
+
 ### Editors
 
 * [VisualSC - Key Bindings (for Linux)](./contents/editors/keybindings-visualsc.md)
