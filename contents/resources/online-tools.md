@@ -9,7 +9,9 @@
 * <a href="https://bundlephobia.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">Find the cost of adding a npm package to your bundle</a>
-
+* <a href="https://instantdomainsearch.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Instant Domain Search</a>
 
 ***
 
@@ -81,7 +83,18 @@
 * <a href="http://sandbox.onlinephpfunctions.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">PHP Sandbox</a>
-
+* <a href="http://try.redis.io/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Try Redis</a>
+* <a href="https://codesandbox.io/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Live online **React**, **Vue**, **Angular**, etc. projects</a>
+* <a href="https://stackblitz.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Live online **React**, **Vue**, **Angular**, **Ionic**, etc. projects</a>
 ***
 
 ## Site checkers
