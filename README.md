@@ -5,6 +5,15 @@ This repository is a hotchpotch for notes about several languages and technologi
 ***
 ## Contents
 
+### Accessibility
+
+* [Accessibility Rules (axe)](https://dequeuniversity.com/rules/axe/3.5)
+* [ARIA Role](https://www.w3.org/TR/WCAG20-TECHS/ARIA11.html)
+* [HTML5 - Structure](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura)
+* [HTML attr: role](./contents/accessibility/HTML-attr-role.md)
+* [Wai-aria Practices](https://www.w3.org/TR/wai-aria-practices/)
+
+
 ### Containers
 
 * [Docker - The basics](./contents/containers/docker-basics.md)
@@ -64,11 +73,11 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
-* [HTML attr: role](./contents/HTML-attr-role.md)
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [TODO Words](./contents/todo-words.md)
 * [Use of libraries from Github projects](./contents/github-raw-files.md)
+
 
 ### Resources
 
