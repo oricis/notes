@@ -36,7 +36,8 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Ionic 5 - Cambiar estilos internos del componente](./contents/js/ionic/styled-shadow-root-elements.md)
 * [React: emit a click event to the father component](./contents/js/react/react-emit_a_click_event_to_the_father_component.md)
 * [React. ¿Por qué la función se llama cada vez que el componente se renderiza?](https://es.reactjs.org/docs/faq-functions.html#why-is-my-function-being-called-every-time-the-component-renders)
-
+* [# Get starter: React JSX + lingui i18n - Instructions](./contents/js/react/react&lingui.md)
+* [# Get starter: React JSX + lingui i18n - Repository](https://github.com/oricis/react_jsx__lingui_i18n)
 
 ### LAMP
 
