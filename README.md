@@ -52,6 +52,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [htaccess settings](https://www.askapache.com/htaccess/)
+* [htaccess settings](./contents/lamp/htaccess-configs.md)
 * [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
