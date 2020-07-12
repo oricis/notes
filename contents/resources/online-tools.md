@@ -13,6 +13,8 @@
     rel="nofollow noopener noreferrer external"
     target="_blank">Instant Domain Search</a>
 * [Color Contrast checker: text & background](https://dequeuniversity.com/rules/axe/3.5/color-contrast)
+* [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
+
 
 ***
 
@@ -134,6 +136,7 @@
 * <a href="https://www.dareboost.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">Website checker (performance / security / accesibility)</a>
+[Google Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=es)
 
 
 ***
