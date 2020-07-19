@@ -92,6 +92,12 @@ This repository is a hotchpotch for notes about several languages and technologi
  * [htaccess - Setting HTTP headers](./contents/security/htaccess-http-headers.md)
 
 
+### SEO
+
+ * [Documentación de la herramienta de datos estructurados de Google: revisión de resultados, tipos soportados, etc.](https://support.google.com/webmasters/answer/7445569)
+ * [schema.org using Microdata](https://schema.org/docs/gs.html)
+
+
 ### Testing
 
  * [Cypress doc](https://docs.cypress.io/)
