@@ -3,9 +3,6 @@
 ***
 ## Checkers ([Site checkers here](#site-checkers))
 
-* <a href="https://search.google.com/structured-data/testing-tool"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Comprobar datos estructurados</a>
 * <a href="https://bundlephobia.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">Find the cost of adding a npm package to your bundle</a>
@@ -105,39 +102,74 @@
 
 * <a href="https://www.aditus.io/button-contrast-checker/"
     rel="nofollow noopener noreferrer external"
-    target="_blank">Button contrast checker (UX)</a>
+    target="_blank">
+    Button contrast checker (UX)</a>
+* <a href="https://www.drlinkcheck.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Site Link Checker</a>
+* <a href="https://www.dareboost.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    dareboost.com (performance / security / accesibility)</a>
+
+
+### Site checkers - Security
+
+* <a href="https://hstspreload.org"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    HSTS preload</a>
 * <a href="https://headerinspector.com"
     rel="nofollow noopener noreferrer external"
-    target="_blank">Header inspector</a>
-* <a href="https://search.google.com/search-console"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Google Search Console</a>
+    target="_blank">
+    Header inspector</a>
 * <a href="https://securityheaders.com"
     rel="nofollow noopener noreferrer external"
     target="_blank">Headers security</a>
-* <a href="https://hstspreload.org"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">HSTS preload</a>
 * <a href="https://observatory.mozilla.org"
     rel="nofollow noopener noreferrer external"
-    target="_blank">observatory.mozilla.org</a>
-* <a href="http://www.redirect-checker.org/bulk-redirect-checker.php"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Redirect checker (301 / 302)</a>
-* <a href="https://www.drlinkcheck.com"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Site Link Checker</a>
-* <a href="https://webpagetest.org/"
-    rel="nofollow noopener noreferrer external"
-    target="_blank">Test de rendimiento (front)</a>
+    target="_blank">
+    Observatory.mozilla.org - CSP, cookies, headers, etc.</a>
 * <a href="https://redbot.org/"
     rel="nofollow noopener noreferrer external"
-    target="_blank">Test headers</a>
+    target="_blank">
+    Test headers</a>
+
+
+### Site checkers - SEO
+
+* <a href="https://search.google.com/search-console"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Google Search Console</a>
+* <a href="https://search.google.com/test/rich-results"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Prueba de resultados enriquecidos</a>
+* <a href="http://www.redirect-checker.org/bulk-redirect-checker.php"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Redirect checker (301 / 302)</a>
+
+
+### Site checkers - Performance Tests (front)
+
+* <a href="https://developers.google.com/speed/pagespeed/insights/?hl=es"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Google Pagespeed Insights</a>
+* <a href="https://gtmetrix.com/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Gtmetrix</a>
+* <a href="https://webpagetest.org/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Webpagetest</a>
 * <a href="https://www.dareboost.com/"
     rel="nofollow noopener noreferrer external"
-    target="_blank">Website checker (performance / security / accesibility)</a>
-[Google Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=es)
-
+    target="_blank">Dareboost</a>
+* <a href="https://gtmetrix.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Gtmetrix</a>
 
 ***
 
