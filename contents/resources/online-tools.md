@@ -104,14 +104,22 @@
     rel="nofollow noopener noreferrer external"
     target="_blank">
     Button contrast checker (UX)</a>
-* <a href="https://www.drlinkcheck.com"
+* <a href="https://jigsaw.w3.org/css-validator/"
     rel="nofollow noopener noreferrer external"
     target="_blank">
-    Site Link Checker</a>
+    CSS Validation</a>
 * <a href="https://www.dareboost.com/"
     rel="nofollow noopener noreferrer external"
     target="_blank">
     dareboost.com (performance / security / accesibility)</a>
+* <a href="https://validator.w3.org/nu"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    HTML Validation</a>
+* <a href="https://www.drlinkcheck.com"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">
+    Site Link Checker</a>
 
 
 ### Site checkers - Security
