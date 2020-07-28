@@ -13,13 +13,15 @@ docker pull node
 
 *Other resources:*
 
-* [Docker for Beginners course](https://kodekloud.com/p/docker-labs)
+* [Docker for Beginners course](https://kodekloud.com/p/docker-for-the-absolute-beginner-hands-on)
 
 ***
 
 ## Check the installed Docker version
 
     docker --version
+
+    docker -v
 
 
 ***
@@ -44,6 +46,8 @@ docker pull node
 
     docker --version
 
+    docker -v
+
 
 > Check the Docker installation. Say "hello world":
 
@@ -62,6 +66,29 @@ The props must show:
 > List commands and options:
 
     docker --help
+
+
+> Dockerfiles
+
+A *Dockerfile* is a plain text file with instructions on how to build an image.
+Name it *Dockerfile*, without extension.
+
+Content to create a ReactJS container:
+
+    FROM node:14
+    WORKDIR /usr/src/app
+    COPY package*.json app.js ./
+    RUN npx create-react-app first-test; cd first-test; npm install
+    EXPOSE 3000
+    CMD ["node", "first-test/src/index.js"]
+
+
+*NOTE: only use double quotes in the CMD line.*
+
+### Dockerfile details
+
+Use the official Node.js image, based on Alpine Linux, using Node 14.
+The workdir is especified as `/usr/src/app` that exist in the docker image.
 
 
 ***
