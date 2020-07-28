@@ -26,7 +26,8 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Editors
 
-* [VisualSC - Key Bindings (for Linux)](./contents/editors/keybindings-visualsc.md)
+* [NetBeans - Key Bindings](./contents/editors/netbeans-keybinding.md)
+* [VisualSC - Key Bindings (for Linux)](./contents/editors/visualsc-keybindings.md)
 * [VisualSC - User settings (JSON)](./contents/editors/user-settings-visualsc.json)
 
 
