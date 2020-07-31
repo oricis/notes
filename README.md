@@ -75,6 +75,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
+* [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [TODO Words](./contents/todo-words.md)
