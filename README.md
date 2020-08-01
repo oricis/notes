@@ -27,6 +27,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### Editors
 
 * [NetBeans - Key Bindings](./contents/editors/netbeans-keybinding.md)
+* [SublimeText - Hacks & Tricks](./contents/editors/sublime-hacks-and-tricks.md)
 * [VisualSC - Key Bindings (for Linux)](./contents/editors/visualsc-keybindings.md)
 * [VisualSC - User settings (JSON)](./contents/editors/user-settings-visualsc.json)
 
