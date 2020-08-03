@@ -4,18 +4,25 @@
 
 ***
 
-> Install Apache / nGinx server
+## Install Apache / nGinx server
 
     sudo apt update
     sudo apt install apache2
 
 <br>
 
-> Install MySQL server: [Go to instructions](./mysql-server-installation.md)
+> Check service status:
 
-<br>
+    service apache2 status
 
-> Create the directory for your web projects (i.e /var/www/html/):
+
+> To start / stop the service:
+
+    sudo service apache2 start
+    sudo service apache2 stop
+
+
+## Create a directory for the web projects:
 
     sudo mkdir /var/www/html
 
@@ -30,7 +37,7 @@
     sudo chmod -R 755 /var/www/html/
 
 
-> Test the server createing a index page:
+> Test the server creating a index page:
 
     nano index.html
 
@@ -52,13 +59,22 @@
     </html>
 
 
-> Open the new file:
+> Open the new file to check if Apache is running:
 
 *If you have the lynx browser intalled:*
 
     lynx /var/www/html/index.html
 
 *or open the folder and click over the file to open it in your default browser.*
+
+*or go to `http://localhost/` in your browser.*
+
+
+***
+
+## Install MySQL server: [Go to instructions](./mysql-server-installation.md)
+
+*To open phpMyAdmin go to `http://localhost/phpmyadmin/` in your browser.*
 
 
 ***
@@ -159,7 +175,7 @@ for example:
     sudo service apache2 stop
     sudo service apache2 start
 
-> o bien:
+> or:
 
     sudo apache2ctl restart
 
