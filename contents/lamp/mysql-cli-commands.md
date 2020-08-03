@@ -4,14 +4,17 @@
 
 ## Create a BD
 
-    mysql> CREATE DATABASE xxx;
+    mysql> CREATE DATABASE database_name;
 
+> or:
+
+    mysql> CREATE DATABASE IF NOT EXISTS database_name;
 
 ## Delete a DB
 
     mysql> DROP DATABASE database_name;
 
-*Once you delete the database it cannot be recovered.*
+***WARNING:** Once you delete the database it cannot be recovered.*
 
 
 ## Access / exit - MySQL CLI:
@@ -29,19 +32,38 @@
 
 ## Create users and asign privileges
 
+***NOTE:** the minimum conditions required for a strong password are:*
+
+ * at least 9 characters
+ * 2 lowercase letters
+ * 2 uppercase letters
+ * 2 numbers
+ * 2 special characters (allowed): `‘ ~ ! @ # $ % ^ & * ( ) _ - + = { } [ ] / < > , . ; ? ' : | (space)`
+
 > Create the user:
 
     mysql> CREATE USER 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
 
+> or:
+
+    mysql> CREATE USER 'user_name'@'localhost';
+    mysql> SET PASSWORD FOR 'user_name'@'localhost' = PASSWORD('user_password');
+
 
 > Asign privileges to work with the database:
 
+    mysql> CREATE DATABASE IF NOT EXISTS `database_name`;
 
     mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER
         ON database_name.*
         TO 'user_name'@'localhost'
         IDENTIFIED BY 'user_password';
+    mysql> FLUSH PRIVILEGES;
+> or:
+
+    mysql> GRANT ALL PRIVILEGES ON `database_name`.*
+        TO 'user_name'@'localhost';
     mysql> FLUSH PRIVILEGES;
 
 
@@ -54,19 +76,11 @@
         WITH GRANT OPTION;
     mysql> FLUSH PRIVILEGES;
 
+> or:
 
-***
-
-## Show user privileges
-
-> Actual user:
-
-    mysql> SHOW GRANTS;
-
-
-> Specific user:
-
-    mysql> SHOW GRANTS FOR 'user_name';
+    mysql> GRANT ALL PRIVILEGES ON `database_name`.*
+        TO 'user_name'@'localhost';
+    mysql> FLUSH PRIVILEGES;
 
 
 ***
@@ -86,9 +100,21 @@
 
     mysql> SELECT User FROM mysql.user;
 
+
 >Show the table "user" field names:
 
     mysql> DESC mysql.user;
+
+
+> Show actual user privileges:
+
+    mysql> SHOW GRANTS;
+
+
+> Show specific user privileges :
+
+    mysql> SHOW GRANTS FOR 'user_name';
+
 
 ***
 
@@ -96,12 +122,12 @@
 
 > List the databases:
 
-    mysql> SHOW databases;
+    mysql> SHOW DATABASES;
 
 > List a database tables:
 
-    mysql> use the_database_name;
-    mysql> SHOW tables;
+    mysql> USE the_database_name;
+    mysql> SHOW TABLES;
 
 > List the table fields:
 
