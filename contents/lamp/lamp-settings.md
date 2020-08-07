@@ -16,10 +16,16 @@
     service apache2 status
 
 
-> To start / stop the service:
+> Start / stop the service:
 
     sudo service apache2 start
     sudo service apache2 stop
+
+
+> Check Apache logs (Ubuntu / Debian):
+
+    sudo tail /var/log/apache2/access.log
+    sudo tail /var/log/apache2/error.log
 
 
 ## Create a directory for the web projects:
@@ -166,7 +172,6 @@ for example:
 
 *You should see the following output:*
 
-    Output
     Syntax OK
 
 
@@ -178,6 +183,11 @@ for example:
 > or:
 
     sudo apache2ctl restart
+
+
+> List available virtual host (Ubuntu / Debian):
+
+    apache2ctl -S
 
 
 ******************************************
