@@ -18,4 +18,13 @@
 
 ***
 
+## Internal links (self page)
+
+    [Link](#target)
+
+    <a name="target"></a>Target content
+
+
+***
+
 [Go to index](../../README.md)
