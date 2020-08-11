@@ -2,9 +2,19 @@
 
 # Setting a Ubuntu LAMP
 
+***Index of contents:***
+
+* [Install Apache / nGinx server](./lamp-settings.md#index1)
+* [Create a directory for the web projects](./lamp-settings.md#index2)
+* [Install MySQL server](./lamp-settings.md#index2)
+* [Create virtual hosts](./lamp-settings.md#index2)
+* [Test your PHP](./lamp-settings.md#index2)
+
+
+***
 ***
 
-## Install Apache / nGinx server
+## <a name="index1"></a>Install Apache / nGinx server
 
     sudo apt update
     sudo apt install apache2
@@ -28,7 +38,7 @@
     sudo tail /var/log/apache2/error.log
 
 
-## Create a directory for the web projects:
+## <a name="index2"></a>Create a directory for the web projects:
 
     sudo mkdir /var/www/html
 
@@ -78,14 +88,14 @@
 
 ***
 
-## Install MySQL server: [Go to instructions](./mysql-server-installation.md)
+## <a name="index3"></a>Install MySQL server: [Go to instructions](./mysql-server-installation.md)
 
 *To open phpMyAdmin go to `http://localhost/phpmyadmin/` in your browser.*
 
 
 ***
 
-## Create virtual hosts
+## <a name="index4"></a>Create virtual hosts
 
 To open `/var/www/html/yoursite/index.html` directly with, for example, `yoursite.local`, we need create a virtual host.
 
@@ -206,7 +216,7 @@ the domain is eligible.*
 
 ***
 
-## Test your PHP
+## <a name="index5"></a>Test your PHP
 
 > Check your PHP version:
 
