@@ -118,5 +118,14 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
 * [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 
+
+### Web Design
+
+* [Google Developers - Design Documents](https://www.chromium.org/developers/design-documents)
+* [HTML Input Attributes](https://www.w3schools.com/html/html_form_attributes.asp)
+* [HTML Living Standard - Forms](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html)
+* [Mozilla Developers - HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+
+
 ***
 ***
