@@ -123,6 +123,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Google Developers - Design Documents](https://www.chromium.org/developers/design-documents)
 * [HTML Input Attributes](https://www.w3schools.com/html/html_form_attributes.asp)
+* [HTML required "input hidden"](./contents/html/input-hidden-required.md)
 * [HTML Living Standard - Forms](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html)
 * [Mozilla Developers - HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
