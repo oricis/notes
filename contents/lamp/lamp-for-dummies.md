@@ -120,6 +120,12 @@
 
     sudo chmod 755 -R -- <directory-name>
 
+
+> Ejemplo.
+> Asignar permisos al directorio de logs de Laravel 5+
+
+    sudo chmod 775 -- storage/logs
+
 ***
 
 <br>
