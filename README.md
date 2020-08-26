@@ -105,7 +105,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
  * [Documentación de la herramienta de datos estructurados de Google: revisión de resultados, tipos soportados, etc.](https://support.google.com/webmasters/answer/7445569)
  * [schema.org using Microdata](https://schema.org/docs/gs.html)
-
+ * [Slugs y URLs](./contents/seo/slugs-and-urls.md)
 
 ### Testing
 
