@@ -22,8 +22,8 @@ Previously, you have to [install Apache, PHP and MySQL](./lamp-settings.md).
 
 > Set the permissions to the Laravel app:
 
-    sudo chmod -R 777 /var/www/html/laravel/your-app/storage
-    sudo chmod -R 777 /var/www/html/laravel/your-app/bootstrap/cache/
+    sudo chmod -R 775 /var/www/html/laravel/your-app/storage
+    sudo chmod -R 775 /var/www/html/laravel/your-app/bootstrap/cache/
 
 
 ***
