@@ -86,6 +86,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
+* [Quality Code Metrics](./contents/quality-code-metrics.md)
 * [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
 * [Use of libraries from Github projects](./contents/github-raw-files.md)
@@ -109,11 +110,13 @@ This repository is a hotchpotch for notes about several languages and technologi
  * [schema.org using Microdata](https://schema.org/docs/gs.html)
  * [Slugs y URLs](./contents/seo/slugs-and-urls.md)
 
+
 ### Testing
 
  * [Cypress doc](https://docs.cypress.io/)
  * [Cypress commands](./contents/testing/cypress.md)
  * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+
 
 ### Ubuntu
 
