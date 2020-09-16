@@ -85,6 +85,8 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
 * [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
+* [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
+* [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
 * [Use of libraries from Github projects](./contents/github-raw-files.md)
 
@@ -111,7 +113,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
  * [Cypress doc](https://docs.cypress.io/)
  * [Cypress commands](./contents/testing/cypress.md)
-
+ * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 
 ### Ubuntu
 
