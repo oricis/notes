@@ -128,6 +128,25 @@
 
 ***
 
+## Acciones sobre directorios
+
+> Crear un directorio:
+
+    mkdir ruta-nuevo-directorio
+
+
+> Borrar un directorio (recursivamente):
+
+    rm -R ruta-directorio
+
+
+> Crear una copia de un directorio con su contenido y permisos:
+
+    sudo cp -r -p ruta-direcorio-a-copiar ruta-nuevo-directorio
+
+
+***
+
 <br>
 
 ### Fuentes consultadas
