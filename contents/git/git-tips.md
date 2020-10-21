@@ -32,6 +32,22 @@
 	git tag -d tag_name
 
 
+### Renombrar tags
+
+> Renombrar tag: old-tag-name
+
+	git tag -d old-tag-name
+	git push origin :refs/tags/old-tag-name
+
+	git tag new-tag-name
+	git push --tags
+
+
+> A ejecutar por los colaboradores:
+
+	git pull --prune --tags
+
+
 *NOTA: Los tags, por defecto, sólo se guardan en el repo local.*
 
 * Enviar los tags al repo remoto:
