@@ -12,8 +12,17 @@
 
 <br>
 You can use for example:
-https://raw.githubusercontent.com/oricis/bootstrap-based-styles/master/assets/common.css
 
+    https://raw.githubusercontent.com/oricis/bootstrap-based-styles/master/assets/common.css
+
+
+<br>
+
+> Use a services as https://gitcdn.link/ to get a useful resource link.
+
+> Add to your HTML head document:
+
+`<link href="https://gitcdn.link/repo/oricis/bootstrap-based-styles/master/assets/common.css" rel="stylesheet">`
 
 ***
 
