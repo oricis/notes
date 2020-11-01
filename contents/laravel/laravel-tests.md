@@ -41,9 +41,14 @@ Base rules (by convention):
 
 ### What classes test under tests/Feature?
 
-For this tests we use routes, then we can test:
- * Controllers
- * Models (across the Controllers)
+These tests include Http requests then, for this type of tests we use routes,
+then with each request, we test the group of:
+
+ * Controller
+ * Model
+ * Route
+
+and the view... or the data that the view will receive, all together!
 
 
 ### What classes test under tests/Unit?
