@@ -60,6 +60,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
+* [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
 * [htaccess settings](https://www.askapache.com/htaccess/)
 * [htaccess settings](./contents/lamp/htaccess-configs.md)
 * [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)

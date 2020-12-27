@@ -6,9 +6,9 @@
 
 * [Install Apache / nGinx server](./lamp-settings.md#index1)
 * [Create a directory for the web projects](./lamp-settings.md#index2)
-* [Install MySQL server](./lamp-settings.md#index2)
-* [Create virtual hosts](./lamp-settings.md#index2)
-* [Test your PHP](./lamp-settings.md#index2)
+* [Install MySQL server](./lamp-settings.md#index3)
+* [Create virtual hosts](./lamp-settings.md#create-virtual-hosts)
+* [Test your PHP](./lamp-settings.md#index5)
 
 
 ***
