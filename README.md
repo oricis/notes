@@ -68,6 +68,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
+* [Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
 
 
 ### Laravel
