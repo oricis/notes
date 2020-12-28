@@ -58,6 +58,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### LAMP
 
+* [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
@@ -101,6 +102,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Resources
 
+* [Bash aliases](./contents/lamp/bash-aliases.md)
 * [My gists](https://gist.github.com/oricis)
 * [Online tools](./contents/resources/online-tools.md)
 
@@ -127,6 +129,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Ubuntu
 
+* [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
 * [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 
