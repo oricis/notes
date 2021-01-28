@@ -59,6 +59,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### LAMP
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
+* [Composer](./contents/lamp/composer.md)
 * [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)

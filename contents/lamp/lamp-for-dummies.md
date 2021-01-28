@@ -32,6 +32,23 @@
 
 ***
 
+## Find files
+
+    locate filename.ext
+
+
+Example:
+
+    locate php.ini
+
+***
+
+## Change between installed PHP versions
+
+    sudo update-alternatives --config php
+
+***
+
 ## Permisos Linux
 
 > ***Ver permisos de ficheros y directorios*** en la ubicación actual:

@@ -4,18 +4,18 @@
 
 ***Index of contents:***
 
-* [Install Apache / nGinx server](./lamp-settings.md#index1)
+* [Install Apache / nGinx server](./lamp-settings.md#install-apache-nginx)
 * [Create a directory for the web projects](./lamp-settings.md#index2)
 * [Install MySQL server](./lamp-settings.md#index3)
 * [Create virtual hosts](./lamp-settings.md#create-virtual-hosts)
 * [Test your PHP](./lamp-settings.md#index5)
+* [Change between installed PHP versions](.lamp-settings.md#php-versions)
 
 
 ***
-***
 
-## <a name="index1"></a>Install Apache / nGinx server
 
+## <a name="install-apache-nginx">Install Apache / nGinx server</a>
     sudo apt update
     sudo apt install apache2
 
@@ -38,7 +38,7 @@
     sudo tail /var/log/apache2/error.log
 
 
-## <a name="index2"></a>Create a directory for the web projects:
+## <a name="index2">Create a directory for the web projects:</a>
 
     sudo mkdir /var/www/html
 
@@ -88,14 +88,14 @@
 
 ***
 
-## <a name="index3"></a>Install MySQL server: [Go to instructions](./mysql-server-installation.md)
+## <a name="index3">Install MySQL server:</a>s [Go to instructions](./mysql-server-installation.md)
 
 *To open phpMyAdmin go to `http://localhost/phpmyadmin/` in your browser.*
 
 
 ***
 
-## <a name="index4"></a>Create virtual hosts
+## <a name="index4">Create virtual hosts</a>
 
 To open `/var/www/html/yoursite/index.html` directly with, for example, `yoursite.local`, we need create a virtual host.
 
@@ -216,7 +216,7 @@ the domain is eligible.*
 
 ***
 
-## <a name="index5"></a>Test your PHP
+## <a name="index5">Test your PHP</a>
 
 > Check your PHP version:
 
@@ -232,6 +232,12 @@ the domain is eligible.*
 > Open the directory in your browser:
 
     http://localhost/yoursite
+
+***
+
+## <a name="php-versions">Cambiar la versión de PHP en uso</a>
+
+    sudo update-alternatives --config php
 
 
 ***
