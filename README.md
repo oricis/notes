@@ -104,6 +104,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### Resources
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
+* [JS vs PHP - Common used methods](./contents/resources/JSvsPHP-common-methods.md)
 * [My gists](https://gist.github.com/oricis)
 * [Online tools](./contents/resources/online-tools.md)
 
