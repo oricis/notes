@@ -5,7 +5,6 @@
 ## Arrays
 ------------------------------------------------------------------------
 
-
 > Split an string into parts
 
     JS --- str.split([separator[, limit]])
@@ -14,6 +13,11 @@
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/split
 https://www.php.net/manual/es/function.explode.php
 
+> Array size:
+
+    JS --- var size = array.length;
+    PHP -- count(array $arr): int
+
 > Merge an array of strings into a string
 
     JS ---
@@ -21,10 +25,21 @@ https://www.php.net/manual/es/function.explode.php
 
 https://www.php.net/manual/es/function.implode.php
 
-> Get element position
+> Element position
 
-    JS --- arr.indexOf(needle)
-    PHP -- in_array(array haystack, mixed needle)
+    JS --- var position = arr.indexOf(needle) // 0, 1, 2, n | -1
+    PHP -- array_search(mixed $needle, array $haystack, bool $strict = false ): mixed
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/indexOf
+https://www.php.net/manual/es/function.in-array.php
+
+> Element is present
+
+    JS --- var exist = array1.includes(2) // bool
+    PHP -- in_array(mixed $needle, array $haystack , bool $strict = false): bool
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/includes
+
 
 ***
 ***
@@ -44,6 +59,51 @@ https://www.bitdegree.org/learn/javascript-tolowercase
 https://www.php.net/manual/es/function.mb-strtolower.php
 https://www.php.net/manual/es/function.mb-strtoupper.php
 
+
+> Replace a part
+
+    JS --- var str = str.replace(search, replace)
+    JS --- var regex = /Dog/i; var str = str.replace(regex, replace));
+    PHP -- str_replace(string $search, string $replace, string $subject): string
+    PHP -- str_ireplace(string $search, string $replace, string $subject): string
+
+> Get a part
+
+    JS --- var str = str.substring(startPosition, [endPosition]);
+    PHP -- substr(string $str, int $start, [int $length]): string
+
+
+> String size (chars number)
+
+    JS --- var strLength = str.length;
+    PHP -- strlen($str);
+
+> Element position
+
+    JS --- var position = str.indexOf(search); // 0, 1, 2, n | -1
+    PHP -- strpos(string $haystack, string $needle): int | bool (false)
+
+> Element is present
+
+    JS ---
+    PHP -- str_contains(string $haystack, string $needle): bool
+
+> Count occurrences
+
+    JS --- var regex = /Dog/g; var occurrences = str.match(regex)).length;
+    PHP -- substr_count(string $haystack, string $needle, int $offset = 0, int $length = ?): int
+
+> Split string
+
+    JS --- var slices = str.split(separator); // array
+    PHP -- explode(string $separator, string $str): array
+
+> Join string
+
+    JS --- var str = elements.join(glue) // string
+    PHP -- implode(string $glue, array $slices): string
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/join
 
 ***
 
