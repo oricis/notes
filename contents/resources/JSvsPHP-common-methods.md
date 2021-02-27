@@ -20,9 +20,10 @@ https://www.php.net/manual/es/function.explode.php
 
 > Merge an array of strings into a string
 
-    JS ---
+    JS --- var str = pieces.join(glue); // str
     PHP -- implode(string $glue, array $pieces): string
 
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 https://www.php.net/manual/es/function.implode.php
 
 > Element position
@@ -85,12 +86,14 @@ https://www.php.net/manual/es/function.mb-strtoupper.php
 
 > Element is present
 
-    JS ---
+    JS --- var result = haystack.includes(needle); // bool
     PHP -- str_contains(string $haystack, string $needle): bool
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 
 > Count occurrences
 
-    JS --- var regex = /Dog/g; var occurrences = str.match(regex)).length;
+    JS --- var regex = /Dog/g; var occurrences = str.match(regex)).length; // int
     PHP -- substr_count(string $haystack, string $needle, int $offset = 0, int $length = ?): int
 
 > Split string
