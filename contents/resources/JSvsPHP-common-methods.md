@@ -42,6 +42,47 @@ https://www.php.net/manual/es/function.in-array.php
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/includes
 
 
+> Sort array elements
+
+    JS --- arr.sort(); // void (NOTE: array contents is considered as strings)
+    PHP -- sort(arr): void
+
+### JS examples
+
+    // ASC
+    const numbers = [4, 2, 32, 21, 5, 1, 10];
+    numbers.sort();
+    console.log(numbers); // [1, 10, 2, 21, 32, 4, 5]
+
+    // ASC
+    numbers.sort((a, b) => {
+        return a - b;
+    });
+    console.log(numbers); // [1, 2, 4, 5, 10, 21, 32]
+
+    // DESC
+    numbers.sort((a, b) =>
+    {
+        return b - a;
+    });
+    console.log(numbers); // [32, 21, 10, 5, 4, 2, 1]
+
+### PHP examples
+
+    $numbers = [4, 2, 32, 21, 5, 1, 10];
+
+    // ASC*
+    sort($numbers, SORT_STRING); // It's possible force string comparison
+    var_dump($numbers); // [1, 10, 2, 21, 32, 4, 5]
+
+    // ASC
+    sort($numbers);
+    var_dump($numbers); // [1, 10, 2, 21, 32, 4, 5]
+
+    // DESC
+    asort($numbers);
+    var_dump($numbers); // [32, 21, 10, 5, 4, 2, 1]
+
 ***
 ***
 
