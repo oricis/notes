@@ -151,4 +151,40 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales
 
 ***
 
+## Others
+
+> Assignment Operators
+
+    JS --- a = b || '';   // Null coalescing operator
+    PHP -- $a = $b ?? ''; // Null Coalescing Assignment Operator - From PHP 7.01
+
+### JS Examples:
+
+    var x = null;
+    var y = undefined;
+    var z = '';
+
+    var a = x || 'foo';
+    var b = y || 'foo';
+    var c = z || 'foo';
+    var d = zzz || 'foo';
+
+    console.log(a + '---' + b + '---' + c); // foo---foo---foo
+    console.log(d); // Uncaught ReferenceError: zzz is not defined
+
+### PHP Examples:
+
+    $a = $x ?? 'foo';
+    $y = null;
+    $b = $y ?? 'foo';
+    $z = '';
+    $c = $z ?? 'foo';
+
+    echo $a . '---' . $b . '---' . $c; // foo---foo---
+
+***
+
 [Go to index](../../README.md)
+
+
+
