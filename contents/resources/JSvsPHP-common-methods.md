@@ -41,6 +41,17 @@ https://www.php.net/manual/es/function.in-array.php
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/includes
 
+> Index is present
+
+    JS --- var hasArrIndex = key in arr // bool
+    PHP -- $hasArrIndex = array_key_exists(mixed $key, array $array): bool
+
+    var arr = ['apple', 'pear', 'banana'];
+    console.log(0 in arr, 5 in arr); // true false
+
+    $arr = ['apple', 'pear', 'banana'];
+    var_dump(array_key_exists(0, $arr)); // bool(true)
+    var_dump(array_key_exists(5, $arr)); // bool(false)
 
 > Sort array elements
 
