@@ -53,7 +53,7 @@ Example:
 
 > ***Ver permisos de ficheros y directorios*** en la ubicación actual:
 
-
+    ls -l
 
 > ***Ver permisos de un fichero o carpeta***, por ejemplo, "README.md" en la ubicación actual:
 
