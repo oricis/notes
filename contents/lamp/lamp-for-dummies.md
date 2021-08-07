@@ -8,6 +8,9 @@
 
     cd  /var/log/apache2/
 
+> Open default Apache2 error logs file:
+
+    nano /var/log/apache2/error.log
 
 > Check php.ini configuration for:
 
@@ -43,9 +46,57 @@ Example:
 
 ***
 
-## Change between installed PHP versions
+## Installed PHP
+
+## Show PHP version in use
+
+### CLI version:
+
+    php --version
+
+### Apache2 in use version
+
+1. Create a phpinfo.php file and open in browser. File content:
+
+    <?php
+    phpinfo();
+
+## Change between installed PHP versions or list installed PHP version
+
+### PHP Cli:
 
     sudo update-alternatives --config php
+
+### Apache2 PHP version:
+
+1. Stop the actual in use version:
+
+    sudo a2dismod php7.2
+
+2. Load the new version:
+
+    sudo a2enmod php8.0
+
+3. Restart Apache2:
+
+    sudo systemctl restart apache2
+
+
+## List all compiled PHP modules
+
+    php -m
+
+## List installed PHP modules
+
+    dpkg --get-selections | grep -i php
+
+## Search a installed PHP module
+
+    dpkg --get-selections | grep -i php-mbstring
+
+## PHP all command line options
+
+    php --help
 
 ***
 
@@ -168,8 +219,8 @@ Example:
 
 ### Fuentes consultadas
 
+    * https://www.tecmint.com/list-php-modules-in-linux/
     * https://www.tutorialesubuntu.com/2009/11/11/explicacion-de-permisos-de-ficheros-y-carpetas-en-ubuntu/
-
 
 ***
 
