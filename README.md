@@ -70,6 +70,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
+* [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
 * [Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
 
 
@@ -86,7 +87,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Markdown Tips](./contents/markdown/markdown.md)
 
 
-### Miscelaneous
+### Miscellaneous
 
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
