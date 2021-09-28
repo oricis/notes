@@ -72,7 +72,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
 * [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
 * [Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
-
+* [Xampp on Ubuntu 18.04](./contents/lamp/xampp.md)
 
 ### Laravel
 
