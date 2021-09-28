@@ -94,6 +94,26 @@ To fix the active partition, you can start a demo ubuntu session with
 an installation usb disk o similar, then list the partition, unmount the system
 partition and run the `fsck` command.
 
+***
+
+## Open files
+
+ > .AppImage
+
+This file contains an executable program. It won't be installed.
+To run the program write on the terminal:
+
+    chmod a+x file_name.AppImage
+    ./file_name.AppImage
+
+
+ > .run
+
+To open a file of this type write on the terminal:
+
+    chmod +x file_name.run
+    ./file_name.run
+
 
 ***
 
