@@ -19,6 +19,15 @@ To uninstall:
 From:
 https://conpilar.es/como-instalar-xampp-en-ubuntu-20-04/
 
+***
+
+### VS Code settings
+
+The editor ask to set "php.validate.executablePath"  when open the first PHP file.
+On "settings.json":
+
+	"php.validate.executablePath": "*otp/lampp/bin/php",
+
 
 ***
 
