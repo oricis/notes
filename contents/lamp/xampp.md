@@ -19,6 +19,36 @@ To uninstall:
 From:
 https://conpilar.es/como-instalar-xampp-en-ubuntu-20-04/
 
+
+## Use PHP commands (included Composer)
+
+### Link PHP to run PHP commands
+
+You can try the command:
+
+	php --version
+
+If PHP isn't found a suggestion to install *something* in printed.
+Let's create a symlink to the php binary from `/usr/bin`:
+
+	sudo ln -s /opt/lampp/bin/php /usr/bin/php
+
+Check installed version:
+
+	php --version
+
+
+### Install composer
+
+Install composer:
+
+	sudo apt install composer
+
+Check installed version:
+
+	composer --version
+
+
 ***
 
 ### VS Code settings
