@@ -18,6 +18,10 @@ Sources:
 
 ***
 
+## Show current user:
+
+    who
+
 ## Toggle between root console and actual user UI
 
 From UI to root terminal:

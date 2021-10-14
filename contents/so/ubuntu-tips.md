@@ -1,6 +1,19 @@
 # Tips in Ubuntu Linux (18.04)
 
+## Contents
+1. Tips
+2. Create / delete vars
+3. Create permanent aliases
+4. Print content from one text file
+5. Install packages / programs
+6. List the actual location files & folders
+7. Show system info
+8. Get actual location and move to others
+9. Who I am?
+
 *Commands for the bash shell.*
+
+***
 
 ## Tips
 
@@ -17,7 +30,9 @@
 
 ***
 
-## Create / delete a var in the actual sesion
+## Create / delete vars
+
+### Create / delete a var in the actual session
 
 > Create a  var
 
@@ -34,10 +49,7 @@
 
 	unset HOLA
 
-
-***
-
-## Create / delete a permanent var in system
+### Create / delete a permanent var in the system
 
 *Add or delete the var in the file '/etc/environment'*
 
@@ -49,7 +61,6 @@
 	Ctrl + X
 
 ***
-
 
 ## Create permanent aliases
 
@@ -73,7 +84,7 @@
 
 ***
 
-## Crear un enlace desde el escritorio
+## Crear un enlace desde el escritorio (create symbolic links)
 
 Para crear un enlace a un directorio:
 
@@ -90,7 +101,7 @@ Por ejemplo:
 
 ***
 
-## Imprimir contenido de un fichero
+## Print content from one text file
 
 *Imprime en la terminal las 10 últimas líneas de un fichero de texto*
 
@@ -99,7 +110,7 @@ Por ejemplo:
 
 ***
 
-## Instalar paquetes / programas
+## Instalar paquetes / programas (Install packages / programs)
 
 >Antes de comenzar a instalar:
 
@@ -108,26 +119,27 @@ Por ejemplo:
 
 ***
 
-## Listar ficheros de un directorio:
+## Listar ficheros del directorio actual (List the actual location files & folders)
 
 > Ficheros visibles:
 
 	ls
 
-
 > Ficheros ocultos
 
 	ls -d .!(|.)
 
-
-> Todos los ficheros
+> Todos los ficheros y  directorios
 
 	ls -a
 
+> Todos los ficheros y  directorios con sus permisos
+
+	ls -la
 
 ***
 
-## Ver información del sistema
+## Ver información del sistema (Show system info)
 
 > Sobre la distro actual
 
@@ -181,9 +193,10 @@ Por ejemplo:
 
 ***
 
-## Where I am?
+## Get actual location and move to others
 
-> Actual location
+> Where I am?
+> Gets the actual location
 
     pwd
 
@@ -202,6 +215,11 @@ Por ejemplo:
 
 *Move to the root directory*
 
+## Who I am?
+
+ > Gets the current user
+
+	who
 
 ***
 
