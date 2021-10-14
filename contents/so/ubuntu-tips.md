@@ -99,6 +99,26 @@ Por ejemplo:
 	sudo ln -s /var/www/html/laravel /home/orici/Escritorio/dev-laravel
 
 
+> Remover un enlace simbólico:
+
+Se obtiene el nombre del enlace:
+
+Por ejemplo hay un enlace simbólico a /usr/bin/php/ que quiero reemplazar, por lo que voy a remover el original, solicito su nombre:
+
+	sudo -l /usr/bin/php
+
+obtengo:
+
+	/usr/bin/php
+
+Ahora con `rm` se elimina (no añadir / al final del path):
+
+	sudo rm /usr/bin/php
+
+Se puede añadir el nuevo enlace simbólico, p.e.:
+
+	sudo ln -s /opt/lampp/bin/php /usr/bin/php
+	
 ***
 
 ## Print content from one text file
