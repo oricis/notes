@@ -63,7 +63,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
-* [htaccess settings](https://www.askapache.com/htaccess/)
 * [htaccess settings](./contents/lamp/htaccess-configs.md)
 * [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
 * [LAMP for dummies. Permissions](./contents/lamp/lamp-for-dummies.permissions.md)
@@ -95,13 +94,12 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Code Style](./contents/code-styles.md)
 * [HTML character codes]('https://www.rapidtables.com/web/html/html-codes.html)
 * [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
-* [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
 * [Quality Code Metrics](./contents/quality-code-metrics.md)
 * [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
-* [Use of libraries from Github projects](./contents/github-raw-files.md)
+* [Use libraries from Github projects](./contents/github-raw-files.md)
 
 
 ### Resources
