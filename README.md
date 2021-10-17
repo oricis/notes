@@ -60,19 +60,27 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Composer](./contents/lamp/composer.md)
-* [Configuración LAMP](./contents/lamp/lamp-settings.md)
-* [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
-* [htaccess settings](./contents/lamp/htaccess-configs.md)
-* [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
+* [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
+* [Configuración LAMP](./contents/lamp/lamp-settings.md)
 * [LAMP for dummies. Permissions](./contents/lamp/lamp-for-dummies.permissions.md)
+* [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
 * [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
-* [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
-* [Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
 * [Xampp on Ubuntu 18.04](./contents/lamp/xampp.md)
+* [htaccess settings](./contents/lamp/htaccess-configs.md)
+* [phpMyAdmin - Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
+
+
+### LAMP - UBUNTU
+
+* [Bash aliases](./contents/lamp/bash-aliases.md)
+* [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
+* [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
+* [Ubuntu tips](./contents/so/ubuntu-tips.md)
+
 
 ### Laravel
 
@@ -128,13 +136,6 @@ This repository is a hotchpotch for notes about several languages and technologi
  * [Cypress doc](https://docs.cypress.io/)
  * [Cypress commands](./contents/testing/cypress.md)
  * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-
-
-### Ubuntu
-
-* [Bash aliases](./contents/lamp/bash-aliases.md)
-* [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
-* [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 
 
 ### Web Design
