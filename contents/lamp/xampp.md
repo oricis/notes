@@ -7,8 +7,15 @@ PHP files can be placed on:
 
 Commands:
 
-	sudo /opt/lampp/lampp stop
+	sudo /opt/lampp/lampp restart
 	sudo /opt/lampp/lampp start
+	sudo /opt/lampp/lampp stop
+
+To `start` the services individually run some of the commands:
+
+	sudo /opt/lampp/lampp startapache
+    sudo /opt/lampp/lampp startmysql
+    sudo /opt/lampp/lampp startftp
 
 To uninstall:
 
@@ -17,8 +24,10 @@ To uninstall:
 
 
 From:
-https://conpilar.es/como-instalar-xampp-en-ubuntu-20-04/
 
+	https://conpilar.es/como-instalar-xampp-en-ubuntu-20-04/
+
+***
 
 ## Use PHP commands (included Composer)
 
