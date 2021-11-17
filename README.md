@@ -110,6 +110,11 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Use libraries from Github projects](./contents/github-raw-files.md)
 
 
+### Node
+
+* [Node & Ubuntu Tips](./contents/node/node-ubuntu-tips.md)
+
+
 ### Resources
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
