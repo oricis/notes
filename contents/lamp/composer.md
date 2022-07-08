@@ -6,7 +6,11 @@
 
 > Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0".
 
+### Update Composer
 
+    sudo composer self-update
+
+    
 ### On Laravel app
 
 1. Check PHP version in use:
