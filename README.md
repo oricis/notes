@@ -55,23 +55,31 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [React. ¿Por qué la función se llama cada vez que el componente se renderiza?](https://es.reactjs.org/docs/faq-functions.html#why-is-my-function-being-called-every-time-the-component-renders)
 * [# Get starter: React JSX + lingui i18n - Instructions](./contents/js/react/react&lingui.md)
 * [# Get starter: React JSX + lingui i18n - Repository](https://github.com/oricis/react_jsx__lingui_i18n)
-
+* [Typescript - First steps](./contents/typescript/typescript-start.md)
 ### LAMP
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Composer](./contents/lamp/composer.md)
-* [Configuración LAMP](./contents/lamp/lamp-settings.md)
-* [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
-* [htaccess settings](https://www.askapache.com/htaccess/)
-* [htaccess settings](./contents/lamp/htaccess-configs.md)
+* [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
+* [Configuración LAMP](./contents/lamp/lamp-settings.md)
+* [LAMP for dummies. Permissions](./contents/lamp/lamp-for-dummies.permissions.md)
 * [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
 * [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
+* [Xampp on Ubuntu 18.04](./contents/lamp/xampp.md)
+* [htaccess settings](./contents/lamp/htaccess-configs.md)
+* [phpMyAdmin - Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
+
+
+### LAMP - UBUNTU
+
+* [Bash aliases](./contents/lamp/bash-aliases.md)
+* [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 * [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
-* [Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
+* [Ubuntu tips](./contents/so/ubuntu-tips.md)
 
 
 ### Laravel
@@ -94,13 +102,17 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Code Style](./contents/code-styles.md)
 * [HTML character codes]('https://www.rapidtables.com/web/html/html-codes.html)
 * [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
-* [Jekyll](./contents/jekyll.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
 * [Quality Code Metrics](./contents/quality-code-metrics.md)
 * [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
-* [Use of libraries from Github projects](./contents/github-raw-files.md)
+* [Use libraries from Github projects](./contents/github-raw-files.md)
+
+
+### Node
+
+* [Node & Ubuntu Tips](./contents/node/node-ubuntu-tips.md)
 
 
 ### Resources
@@ -129,13 +141,6 @@ This repository is a hotchpotch for notes about several languages and technologi
  * [Cypress doc](https://docs.cypress.io/)
  * [Cypress commands](./contents/testing/cypress.md)
  * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-
-
-### Ubuntu
-
-* [Bash aliases](./contents/lamp/bash-aliases.md)
-* [Ubuntu 18.04 - Tips](./contents/so/ubuntu-tips.md)
-* [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 
 
 ### Web Design

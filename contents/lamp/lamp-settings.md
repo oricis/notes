@@ -2,7 +2,7 @@
 
 # Setting a Ubuntu LAMP (Linux, Apache, MySql & PHP)
 
-***Index of contents:***
+***<a name="top-index">Index of contents:</a>***
 
 * [Install Apache / nGinx server](./lamp-settings.md#install-apache-nginx)
 * [Create a directory for the web projects](./lamp-settings.md#index2)
@@ -13,7 +13,11 @@
 * [Get composer: the PHP dependency handler](./lamp-settings.md#php-composer)
 * [Install MySQL server](./lamp-settings.md#index3)
 
-PHP configurations related to Apache are stored in /etc/php/7.4/apache2/php.ini
+PHP configurations related to Apache are stored in the *php.ini* file on the
+directory `/etc/php/php_version_number/apache2/`, for example:
+
+    /etc/php/7.4/apache2/php.ini
+
 ***
 
 
@@ -45,6 +49,8 @@ To avoid this, disable the service. It can be started when will be necessary.
 
     sudo tail /var/log/apache2/access.log
     sudo tail /var/log/apache2/error.log
+
+[ᐱ Top index](./lamp-settings.md#top-index)
 
 ***
 
@@ -95,6 +101,8 @@ To avoid this, disable the service. It can be started when will be necessary.
 
 *or go to `http://localhost/` in your browser.*
 
+[ᐱ Top index](./lamp-settings.md#top-index)
+
 ***
 
 ## <a name="index4">Create virtual hosts</a>
@@ -132,6 +140,8 @@ To open `/var/www/html/yoursite/index.html` directly with, for example, `yoursit
 > or:
 
     firefox /var/www/html/yoursite/index.html
+
+[ᐱ Top index](./lamp-settings.md#top-index)
 
 ***
 
@@ -229,6 +239,8 @@ Is necessary use a domain name don't preloaded for [HSTS](https://en.wikipedia.o
 You can use: this [checker tool](https://hstspreload.org/) with your domain
 to know if you can use in your virtual hosts. If the checker set in red,
 the domain is eligible.*
+
+[ᐱ Top index](./lamp-settings.md#top-index)
 
 ***
 
@@ -330,6 +342,8 @@ For example:
 [PHP extensions for Ubuntu 20.04 LTS (Focal Fossa)](https://packages.ubuntu.com/focal/php/)
 [PHP extensions for Ubuntu 18.04 LTS (Bionic)](https://packages.ubuntu.com/bionic/php/)
 
+[ᐱ Top index](./lamp-settings.md#top-index)
+
 ***
 
 ## <a name="index5">Test your PHP</a>
@@ -368,6 +382,8 @@ one in the terminal and other running in the web server (Apache, Nginx, etc).
 > Watch PHP configurations related to Apache in `/etc/php/7.4/apache2/php.ini`
 > (set the PHP version in use).
 
+[ᐱ Top index](./lamp-settings.md#top-index)
+
 ***
 
 ## <a name="php-versions">Swap PHP version</a>
@@ -379,6 +395,8 @@ Then a list of available PHP versions will appear or a message as this:
 > Sólo hay una alternativa en el grupo de enlaces php (provee /usr/bin/php): /usr/bin/php8.1
 > Nada que configurar.
 
+[ᐱ Top index](./lamp-settings.md#top-index)
+
 ***
 
 ## <a name="php-composer" id="php-composer">Get composer: the PHP dependency handler</a>
@@ -387,6 +405,8 @@ Then a list of available PHP versions will appear or a message as this:
 with pure PHP but it's strongly necessary t[o handle libraries and dependencies.
 Actually, after install PHP in your system you must to install Composer
 to start to work.
+
+[ᐱ Top index](./lamp-settings.md#top-index)
 
 ***
 
@@ -397,4 +417,6 @@ to start to work.
 
 ***
 
+[ᐱ Top index](./lamp-settings.md#top-index)
+|
 [Go to index](../../README.md)
