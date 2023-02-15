@@ -4,12 +4,16 @@
 
 > [Docker images](https://hub.docker.com)
 
-docker pull mariadb
-docker pull nginx
-docker pull sonarqube
-docker pull mysql
-docker pull node
+To use a LAMP stack:
 
+    docker pull mariadb
+    docker pull nginx
+    docker pull mysql
+
+and optionally:
+
+    docker pull node
+    docker pull sonarqube
 
 *Other resources:*
 
