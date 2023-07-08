@@ -70,4 +70,117 @@ On "settings.json":
 
 ***
 
+## Add virtual host
+
+Open `hosts` and add our virtual hosts:
+
+	sudo nano /etc/hosts
+
+After the edition i have the next file content:
+
+	127.0.0.1       localhost
+	127.0.1.1       mi-laptop
+	127.0.1.2       foo.local
+	127.0.1.3       ironwoods.local
+
+	# The following lines are desirable for IPv6 capable hosts
+	::1     ip6-localhost ip6-loopback
+	fe00::0 ip6-localnet
+	ff00::0 ip6-mcastprefix
+
+Open the Apache config file:
+
+	sudo nano /opt/lampp/etc/httpd.conf
+
+Uncomment the line:
+
+	Include etc/extra/httpd-vhosts.conf
+
+And change `daemon` by the username and group name owners of the projects on:
+
+	User daemon
+	Group daemon
+	</IfModule>
+
+for example to:
+	User www:data
+	Group www:data
+	</IfModule>
+
+Save and open "httpd-vhosts.conf":
+
+	sudo nano /etc/extra/httpd-vhosts.conf
+
+Can use a content as this:
+
+	<Directory "/opt/lampp/htdocs">
+		Options Indexes FollowSymLinks Includes ExecCGI
+		AllowOverride All
+		Require all granted
+	</Directory>
+
+	<VirtualHost *:80>
+		DocumentRoot "/opt/lampp/htdocs"
+		ServerName localhost
+
+		ErrorLog "logs/localhost.local-error_log"
+		CustomLog "logs/localhost.local-access_log" common
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		DocumentRoot "/opt/lampp/htdocs/Laravel/foo/public"
+		ServerName foo.local
+
+		ErrorLog "logs/localhost.laravel-error_log"
+		CustomLog "logs/localhost.laravel-access_log" common
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		DocumentRoot "/opt/lampp/htdocs/Laravel/ironwoods/public"
+		ServerName ironwoods.local
+
+		ErrorLog "logs/localhost.laravel-error_log"
+		CustomLog "logs/localhost.laravel-access_log" common
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		DocumentRoot "/opt/lampp/htdocs/Laravel/skyerp/public"
+		ServerName skyerp.local
+
+		ErrorLog "logs/localhost.laravel-error_log"
+		CustomLog "logs/localhost.laravel-access_log" common
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		DocumentRoot "/opt/lampp/htdocs/Laravel/cms/public"
+		ServerName cms.local
+
+		ErrorLog "logs/localhost.laravel-error_log"
+		CustomLog "logs/localhost.laravel-access_log" common
+	</VirtualHost>
+
+
+###Sources:
+
+  > https://simplecodetips.wordpress.com/2018/07/11/crear-virtualhost-con-xampp-en-ubuntu-18-04/
+
+## Possible problems
+
+ > AH00543: httpd: bad user name www:data
+
+Open your file "httpd.conf":
+
+	sudo nano /opt/lampp/etc/httpd.conf
+
+Change the line:
+
+	User www:data
+
+with:
+
+	User your_linux_user_name
+
+
+***
+
 [Go to index](../../README.md)

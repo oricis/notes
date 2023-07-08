@@ -56,23 +56,26 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [# Get starter: React JSX + lingui i18n - Instructions](./contents/js/react/react&lingui.md)
 * [# Get starter: React JSX + lingui i18n - Repository](https://github.com/oricis/react_jsx__lingui_i18n)
 * [Typescript - First steps](./contents/typescript/typescript-start.md)
+
 ### LAMP
 
+* [Apache2 errors](./contents/lamp/apache-errors.md)
 * [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Composer](./contents/lamp/composer.md)
-* [Configuración LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
-* [Configuración LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
-* [Configuración LAMP](./contents/lamp/lamp-settings.md)
+* [Configuration LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
+* [Configuration LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
+* [Configuration LAMP](./contents/lamp/lamp-settings.md)
 * [LAMP for dummies. Permissions](./contents/lamp/lamp-for-dummies.permissions.md)
 * [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
+* [Linux commands](./contents/lamp/linux-commands.md)
 * [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
 * [MySQL Server / Ubuntu 18.04](./contents/lamp/mysql-server-in-ubuntu.md)
+* [MySql installation](./contents/lamp/mysql-installation.md)
 * [Xampp on Ubuntu 18.04](./contents/lamp/xampp.md)
 * [htaccess settings](./contents/lamp/htaccess-configs.md)
 * [phpMyAdmin - Updated phpMyAdmin on Ubuntu 18.04](./contents/lamp/update-phpmyadmin.md)
-
 
 ### LAMP - UBUNTU
 

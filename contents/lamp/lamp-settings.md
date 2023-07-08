@@ -56,6 +56,7 @@ To avoid this, disable the service. It can be started when will be necessary.
 
 ## <a name="index2">Create a directory for the web projects:</a>
 
+    sudo mkdir /var/www
     sudo mkdir /var/www/html
 
 
@@ -275,7 +276,7 @@ Actually, I have PHP 8.1 in use. I go to install PHP 7.4.
 
 > Install PHP:
 
-    sudo apt -y install php7.4
+    sudo apt-get install php7.4 -y
 
 > Install additional PHP modules:
 
