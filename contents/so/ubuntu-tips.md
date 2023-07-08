@@ -1,15 +1,19 @@
 # Tips in Ubuntu Linux (18.04)
 
 ## Contents
-1. Tips
-2. Create / delete vars
-3. Create permanent aliases
-4. Print content from one text file
-5. Install packages / programs
-6. List the actual location files & folders
-7. Show system info
-8. Get actual location and move to others
-9. Who I am?
+
+1.  Tips
+2.  Create / delete vars
+3.  Aliases
+4.  Print content from one text file
+5.  Install packages / programs
+6.  List the actual location files & folders
+7.  Show system info
+8.  Get actual location and move to others
+9.  Who I am?
+10. DNS
+11. Repositories
+
 
 *Commands for the bash shell.*
 
@@ -62,7 +66,9 @@
 
 ***
 
-## Create permanent aliases
+## Aliases
+
+### Create permanent aliases
 
 > Open .bashrc file:
 
@@ -118,7 +124,7 @@ Ahora con `rm` se elimina (no añadir / al final del path):
 Se puede añadir el nuevo enlace simbólico, p.e.:
 
 	sudo ln -s /opt/lampp/bin/php /usr/bin/php
-	
+
 ***
 
 ## Print content from one text file
@@ -240,6 +246,48 @@ Se puede añadir el nuevo enlace simbólico, p.e.:
  > Gets the current user
 
 	who
+
+## DNS
+
+### Change DNS Settings in Chrome
+
+1. To change the default setting on Chrome, paste the following URL in the address bar:
+
+    chrome://net-internals/#hsts
+
+2. Then, open the Domain Security Policy tab and scroll down to the Delete domain security policies section.
+
+3. Add localhost as the domain name and click Delete.
+
+***
+
+### Clean DNS cache
+
+Watch DNS statistics:
+
+    sudo systemd-resolve --statistics
+
+Clean DNS cache:
+
+    sudo systemd-resolve --flush-caches
+
+***
+
+## Repositories
+
+### Search packages in the repositories
+
+The command `apt-cache search <name>` search and list the packages
+in the repositories.
+
+ > To search PHP 7 versions:
+
+    apt-cache search php7
+
+ > Can use *aptitude* to search:
+
+    aptitude search <name>
+
 
 ***
 

@@ -66,6 +66,7 @@ move the directory to its destination:
 This tutorial is based on this other (how to install latest phpmyadmin):
     https://computingforgeeks.com/how-to-install-latest-phpmyadmin-on-ubuntu-debian/
 
+
 ***
 
 [Go to index](../../README.md)
