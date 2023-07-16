@@ -213,7 +213,7 @@
     target="_blank">Mock data generator</a>
 * <a href="https://office.live.com/start/Word.aspx"
     rel="nofollow noopener noreferrer external"
-    target="_blank">Word online</a>
+    target="_blank">Word online</a>. <em>You need a Microsoft account, f.e. free hotmail, skype, etc. to use this service<em>
 
 * <a href="https://monitor.firefox.com"
     rel="nofollow noopener noreferrer external"
