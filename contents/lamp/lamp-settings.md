@@ -4,14 +4,15 @@
 
 ***<a name="top-index">Index of contents:</a>***
 
-* [Install Apache / nGinx server](./lamp-settings.md#install-apache-nginx)
+* [Change between installed PHP versions](./lamp-settings.md#php-versions)
 * [Create a directory for the web projects](./lamp-settings.md#index2)
 * [Create virtual hosts](./lamp-settings.md#create-virtual-hosts)
-* [Install PHP on Ubuntu](./lamp-settings.md#install-php)
-* [Test your PHP](./lamp-settings.md#index5)
-* [Change between installed PHP versions](./lamp-settings.md#php-versions)
 * [Get composer: the PHP dependency handler](./lamp-settings.md#php-composer)
+* [Install Apache / nGinx server](./lamp-settings.md#install-apache-nginx)
 * [Install MySQL server](./lamp-settings.md#index3)
+* [Install PHP on Ubuntu](./lamp-settings.md#install-php)
+* [Install a new PHP version on Ubuntu 20](.ubuntu-add-php-version.md)
+* [Test your PHP](./lamp-settings.md#index5)
 
 PHP configurations related to Apache are stored in the *php.ini* file on the
 directory `/etc/php/php_version_number/apache2/`, for example:
