@@ -397,6 +397,13 @@ Then a list of available PHP versions will appear or a message as this:
 > Sólo hay una alternativa en el grupo de enlaces php (provee /usr/bin/php): /usr/bin/php8.1
 > Nada que configurar.
 
+If several PHP versions are available choose one (this will use on the CLI)
+To enable the same version for Apache|Nginx, f.e. PHP 8.1:
+
+    sudo a2dismod php7.4
+    sudo a2enmod php8.1
+    sudo systemctl restart apache2
+
 [ᐱ Top index](./lamp-settings.md#top-index)
 
 ***

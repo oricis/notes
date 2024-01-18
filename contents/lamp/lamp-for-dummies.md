@@ -56,7 +56,7 @@ Example:
 
 ### Apache2 in use version
 
-1. Create a phpinfo.php file and open in browser. File content:
+1. Create a "phpinfo.php" file and open in browser. File content:
 
     <?php
     phpinfo();

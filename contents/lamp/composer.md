@@ -10,7 +10,7 @@
 
     sudo composer self-update
 
-    
+
 ### On Laravel app
 
 1. Check PHP version in use:
@@ -35,6 +35,25 @@
 
         composer update --ignore-platform-reqs
 
+
+#### Activate the PHP Curl extension
+
+To active CURL you need to install the next modules, f.e. on PHP 7.4:
+
+    sudo apt install libapache2-mod-php7.4 php7.4-curl
+
+
+Open php.ini:
+
+    sudo nano /etc/php/7.4/fpm/php.ini
+
+search and uncomment:
+
+    ;extension=curl
+
+Save file and restart Apache:
+
+    sudo systemctl restart apache2
 
 ***
 

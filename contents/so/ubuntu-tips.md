@@ -90,7 +90,7 @@
 
 ***
 
-## Crear un enlace desde el escritorio (create symbolic links)
+## Crear un enlace simbólico (create symbolic links)
 
 Para crear un enlace a un directorio:
 
