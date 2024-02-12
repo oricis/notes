@@ -48,7 +48,11 @@
 * <a href="https://editor.method.ac"
     rel="nofollow noopener noreferrer external"
     target="_blank">SVG editor (Simple vectorial draws)</a>
+* <a href="https://app.diagrams.net/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Draw.io - Vectorial diagrams / Raw prototyping</a>
 
+* [Prototyping tools: Figma vs Penpot](../tools/prototyping.md)
 
 ***
 
