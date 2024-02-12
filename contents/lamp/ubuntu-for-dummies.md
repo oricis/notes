@@ -4,6 +4,7 @@
 
 * [Get System information](./ubuntu-for-dummies.md#system-information)
 * [Create direct accesses from Desktop](./ubuntu-for-dummies.md#direct-accesses)
+* [apt commands](./ubuntu-for-dummies.md#apt-commands)
 * [Check and repair disks and partitions](./ubuntu-for-dummies.md#check-and-repair)
 * [Open files](./ubuntu-for-dummies.md#open-files)
 * [Security: tools and tips](./ubuntu-for-dummies.md#security-tools)
@@ -70,6 +71,28 @@ or:
 or
 
 	ln -s $PWD/file_or_directory_name ~/Escritorio/
+
+[ᐱ Top index](./lamp-settings.md#top-index)
+
+***
+
+## <a name="apt-commands">apt commands</a>
+
+**apt purge** similar a `apt remove` salvo que elimina archivos de configuración
+que el segundo deja intactos.
+
+**apt autoremove** elimina paquetes no requeridos actualmente que fueron instalados
+para satisfacer dependencias de otros paquetes .
+
+**apt autoclean** limpia el repositorio local de archivos de paquetes recuperados
+que ya no van a ser utilizados.
+
+**apt dist-upgrade** actualiza y maneja "inteligentemente" las dependencias
+cambiantes con nuevas versiones de paquetes.
+
+##### Fuentes
+ - https://es.stackoverflow.com/a/342626/20709
+ - https://manpages.ubuntu.com/manpages/trusty/es/man8/apt-get.8.html
 
 [ᐱ Top index](./lamp-settings.md#top-index)
 

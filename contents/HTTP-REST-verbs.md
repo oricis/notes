@@ -33,8 +33,7 @@ Devuelve s√≥lo las cabeceras de las respuestas, no el cuerpo (nos interesa el c√
 | PUT	        | Update | Modifica 1 objeto existente del Servidor
 | DELETE	    | Delete | Elimina 1 objeto existente del Servidor
 
-***NOTA:** En ocasiones se intgercambia el uso de POST y PUT.*
-
+***NOTA:** En ocasiones se intercambia el uso de POST y PUT.*
 
 ***
 
