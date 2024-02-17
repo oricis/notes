@@ -24,6 +24,7 @@ Main commands, similarities and differences between
 |                |                  |
 | Comment tool   | c                | c
 | Ellipse tool   | O                | E
+| Frame tool     | F                |
 | Hand tool      | H                |
 | Line tool      | L                |
 | Pointer tool   | V                | V
@@ -37,7 +38,9 @@ Main commands, similarities and differences between
 
 *NOTE: when set the object opacity the 0 is used to set opacity to 100%.*
 *NOTE: Figma keyboard shortcuts are available clicking the ? button on the botton right.*
-
+*NOTE: Figma frames are containers where design the screens, f.e. it's possible*
+*to choose some popular screen sizes to create the prototypes for this screens.*
+*One "page" can content multiple frames, on Penpot the design unit is the page.*
 
 ***
 

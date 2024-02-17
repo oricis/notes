@@ -81,7 +81,7 @@
         *Primer grupo (propietario) con todos los permisos. Otros dos grupos sin permisos.*
 
 
-### Asignar permisos
+### Asignar permisos: chmod
 
 > Asignar permisos a directorio o fichero:
 
@@ -97,6 +97,31 @@
 > Asignar permisos al directorio de logs de Laravel 5+
 
     sudo chmod 775 -- storage/logs
+
+### Cambiar propietario: chown
+
+> Cambiar el propietario de un fichero:
+
+    sudo chown <owner> <file-name>
+    sudo chown <owner> /<directory-name>
+
+> Cambiar el propietario de un directorio y su contenido recursivamente:
+
+    sudo chown -R <owner> /<directory-name>
+
+> Cambiar el grupo de un fichero o directorio:
+
+    sudo chown :<group> <file-name>
+    sudo chown :<group> /<directory-name>
+
+> Cambiar el grupo de un directorio y su contenido recursivamente:
+
+    sudo chown -R :<group> /<directory-name>
+
+> Cambiar el propietario y grupo de un fichero o directorio:
+
+    sudo chown <owner>:<group> <file-name>
+    sudo chown <owner>:<group> /<directory-name>
 
 ***
 
