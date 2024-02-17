@@ -29,14 +29,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Installing Typo3 / LAMP](./contents/cms/install-typo3.md)
 
 
-### Editors
-
-* [NetBeans - Key Bindings](./contents/editors/netbeans-keybinding.md)
-* [SublimeText - Hacks & Tricks](./contents/editors/sublime-hacks-and-tricks.md)
-* [VisualSC - Key Bindings (for Linux)](./contents/editors/visualsc-keybindings.md)
-* [VisualSC - User settings (JSON)](./contents/editors/user-settings-visualsc.json)
-
-
 ### JavaScript
 
 * [Date and Time](./contents/js/js-times.md))
@@ -112,7 +104,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
 * [Use libraries from Github projects](./contents/github-raw-files.md)
-* [Prototyping tools: Figma vs Penpot](./contents/tools/prototyping.md)
 
 ### Node
 
@@ -145,6 +136,18 @@ This repository is a hotchpotch for notes about several languages and technologi
  * [Cypress doc](https://docs.cypress.io/)
  * [Cypress commands](./contents/testing/cypress.md)
  * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+
+
+### Tools
+
+* [Prototyping tools: Figma vs Penpot](./contents/tools/prototyping.md)
+
+### Tools / Editors
+
+* [NetBeans - Key Bindings](./contents/tools/editors/netbeans-keybinding.md)
+* [SublimeText - Hacks & Tricks](./contents/tools/editors/sublime-hacks-and-tricks.md)
+* [VisualSC - Key Bindings (for Linux)](./contents/tools/editors/visualsc-keybindings.md)
+* [VisualSC - User settings (JSON)](./contents/tools/editors/user-settings-visualsc.json)
 
 
 ### Web Design
