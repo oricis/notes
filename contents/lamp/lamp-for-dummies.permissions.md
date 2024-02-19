@@ -14,7 +14,6 @@
 
     ls -l | grep README.md
 
-
 ### Explicación de los permisos
 
 * La primera columna, *después de usar el comando `ls -l`*, muestra los permisos.
@@ -46,22 +45,25 @@
 
 * 3 grupos de permisos, con 3 permisos cada uno:
 
-    * Primer grupo: permisos del usuario dueño del fichero.
+    * Primer grupo: permisos del propietario del fichero.
     * Segundo grupo: permisos del grupo de usuarios del fichero.
     * Tercer grupo: permisos para el resto de usuarios.
 
-* Representamos los grupos como números.
+Así los permisos de asignan mediante grupos numéricos de 3 cifras,
+*p.e. 777 asigna todos los permisos a los 3 grupos de usuarios.*
 
-    El equivalente númerico viene del binario, donde el 7 equivale en binario a 111 y el 0 a 000.
+* Asignar permisos mediante números.
 
-        111 -> RWX -> 7
-        110 -> RW- -> 6
-        101 -> R-X -> 5
-        100 -> R–  -> 4
-        011 -> -WX -> 3
-        010 -> -W- -> 2
-        001 -> –X  -> 1
-        000 -> —   -> 0
+    0: Sin permisos
+    1: Ejecución
+    2: Escritura
+    3: Escritura + ejecución
+    4: Lectura
+    5: Lectura + ejecución
+    6: Lectura + escritura
+    7: Lectura + escritura + ejecución
+
+Así el 7 equivale a 421 o el 6 a 720.
 
     * **777** equivale a **rwxrwxrwx**.
         *Cada uno de los grupos tiene todos los permisos.*
@@ -79,7 +81,6 @@
         *Primer grupo (propietario) con  permisos de lectura y modificación. Otros dos grupos sin permiso de modificación.*
     * **700** equivale a **rwx------**.
         *Primer grupo (propietario) con todos los permisos. Otros dos grupos sin permisos.*
-
 
 ### Asignar permisos: chmod
 
@@ -125,6 +126,22 @@
 
 ***
 
+### Información sobre los grupos de usuarios
+
+> ¿En que grupos estoy?
+
+    groups
+
+> ¿A que grupos pertenece el usuario "xxx"?
+
+    groups xxx
+
+> ¿Que usuarios tiene el grupo "foo"?
+
+    getent group foo
+
+***
+
 ## Acciones sobre directorios
 
 > Crear un directorio:
@@ -147,6 +164,17 @@
 ### Fuentes consultadas
 
     * https://www.tutorialesubuntu.com/2009/11/11/explicacion-de-permisos-de-ficheros-y-carpetas-en-ubuntu/
+
+***
+
+### Notas
+
+> Cambios de permisos, propietario o grupo y Git.
+
+Si tenemos ficheros de un repositorio **Git** y cambiamos sus permisos,
+Git detecta cambios en los ficheros, si bien, el "diff" no muestra nada.
+Cambiar el propietario o grupo de los ficheros directorios, no conlleva
+modificaciones para Git.
 
 ***
 
