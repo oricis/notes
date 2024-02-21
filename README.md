@@ -49,6 +49,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [# Get starter: React JSX + lingui i18n - Repository](https://github.com/oricis/react_jsx__lingui_i18n)
 * [Typescript - First steps](./contents/typescript/typescript-start.md)
 
+
 ### LAMP
 
 * [Apache2 errors](./contents/lamp/apache-errors.md)
@@ -101,9 +102,11 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
 * [Quality Code Metrics](./contents/quality-code-metrics.md)
+* [Run Windows games & Apps on Linux](./contents/play-on-linux.md)
 * [Social colors](https://www.materialui.co/socialcolors)
 * [TODO Words](./contents/todo-words.md)
 * [Use libraries from Github projects](./contents/github-raw-files.md)
+
 
 ### Node
 
