@@ -215,13 +215,11 @@ For example:
 
 > Restart the apache service
 
-    sudo service apache2 stop
-    sudo service apache2 start
+    sudo apache2ctl restart
 
 > or:
 
-    sudo apache2ctl restart
-
+    sudo systemctl reload apache2
 
 > List available virtual host (Ubuntu / Debian):
 
