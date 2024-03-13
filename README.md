@@ -77,6 +77,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Ubuntu for dummies](./contents/lamp/so/ubuntu-for-dummies.md)
 * [Ubuntu security: tools and tips](./contents/so/ubuntu-security-basis.md)
 * [Ubuntu tips](./contents/so/ubuntu-tips.md)
+* [Ubuntu - working with files and directories](./contents/so/ubuntu-files-and-directories.md)
 
 
 ### Laravel

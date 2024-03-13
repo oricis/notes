@@ -8,6 +8,7 @@
 * [Check and repair disks and partitions](./ubuntu-for-dummies.md#check-and-repair)
 * [Open files](./ubuntu-for-dummies.md#open-files)
 * [Security: tools and tips](./ubuntu-security-basis.md)
+* [Working with files and directories](./ubuntu-files-and-directories.md)
 
 Sources:
     https://laguialinux.es/analizar-sistema-de-archivos-y-particion/
