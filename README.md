@@ -74,7 +74,8 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
-* [Ubuntu for dummies](./contents/lamp/ubuntu-for-dummies.md)
+* [Ubuntu for dummies](./contents/lamp/so/ubuntu-for-dummies.md)
+* [Ubuntu security: tools and tips](./contents/so/ubuntu-security-basis.md)
 * [Ubuntu tips](./contents/so/ubuntu-tips.md)
 
 
