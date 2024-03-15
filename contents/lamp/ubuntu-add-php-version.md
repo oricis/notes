@@ -38,10 +38,8 @@ Set a "index.php" with phpinfo(); on it on the localhost directory and open
 with browser.
 
 
-[ᐱ Top index](./lamp-settings.md#top-index)
-
 ***
 
-[ᐱ Top index](./lamp-settings.md#top-index)
+[Setting LAMP](./lamp-settings.md)
 |
 [Go to index](../../README.md)
