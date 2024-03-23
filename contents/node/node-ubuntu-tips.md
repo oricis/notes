@@ -1,6 +1,6 @@
 # NodeJs / Ubuntu Tips
 
-## Update Node
+## Update Node & npm
 
  > Check the version:
 
