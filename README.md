@@ -102,6 +102,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Code Style](./contents/code-styles.md)
 * [HTML character codes]('https://www.rapidtables.com/web/html/html-codes.html)
 * [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
+* [HTTP response status codes](./contents/HTTP-response-status-codes.md)
 * [List of Keyboard Symbols](./contents/keyboard-symbols.md)
 * [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
 * [Quality Code Metrics](./contents/quality-code-metrics.md)
