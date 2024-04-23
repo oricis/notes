@@ -191,6 +191,9 @@
 * <a href="https://tinypng.com"
     rel="nofollow noopener noreferrer external"
     target="_blank">Tiny PNG (Minify images)</a>
+* <a href="https://squoosh.app/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank">Image compressor</a>
 * <a href="https://jakearchibald.github.io/svgomg"
     rel="nofollow noopener noreferrer external"
     target="_blank">SVG optimizer (Minify SVGs)</a>
@@ -206,6 +209,10 @@
 * <a href="https://www.draw.io"
     rel="nofollow noopener noreferrer external"
     target="_blank">Draw.io (Draw Diagrams)</a>
+* <a href="https://penpot.app/"
+    rel="nofollow noopener noreferrer external"
+    title="web-based open-source design tool to join design and development"
+    target="_blank">penpot.app (web and apps design tool)</a>
 * <a href="https://whiteboardfox.com"
     rel="nofollow noopener noreferrer external"
     target="_blank">White board</a>
@@ -222,7 +229,15 @@
 * <a href="https://monitor.firefox.com"
     rel="nofollow noopener noreferrer external"
     target="_blank">Check your email</a>
-
+* <a href="https://www.shell.how/"
+    rel="nofollow noopener noreferrer external"
+    title="Shell commands explained"
+    target="_blank">Shell how (shell commands online help)</a>
+* <a href="https://smalldev.tools/"
+    rel="nofollow noopener noreferrer external"
+    target="_blank"
+    title="The web developers Swiss Army knife">
+    Dev tools set <em>(Compressors, formatters, generators, etc.)</em></a>
 
 ***
 
