@@ -147,6 +147,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Tools
 
+* [PHP tools](./contents/php/tools.md)
 * [Prototyping tools: Figma vs Penpot](./contents/tools/prototyping.md)
 
 ### Tools / Editors
