@@ -99,6 +99,12 @@ Así el 7 equivale a 421 o el 6 a 720.
 
     sudo chmod 775 -- storage/logs
 
+> Puedes **copiar los permisos de un fichero a otro**,
+> p.e. borras el fichero error.log de apache y quieres volver a crearlo:
+
+    sudo chmod --reference=access.log error.log
+
+
 ### Cambiar propietario: chown
 
 > Cambiar el propietario de un fichero:

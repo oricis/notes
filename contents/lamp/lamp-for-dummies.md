@@ -4,13 +4,17 @@
 
 ***
 
-## PHP error logs
+## PHP access or error logs
 
     cd  /var/log/apache2/
 
 > Open default Apache2 error logs file:
 
     nano /var/log/apache2/error.log
+
+> Clean Apache2 error file:
+
+    sudo truncate -s 0 /var/log/apache2/error.log
 
 > Check php.ini configuration for:
 
