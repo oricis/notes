@@ -31,7 +31,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### JavaScript
 
-* [Date and Time](./contents/js/js-times.md))
+* [Date and Time](./contents/js/js-times.md)
 * [ES6 - var, let, const, ...](./contents/js/ES6-vars.md)
 * [JS cheat-sheet](https://www.bitdegree.org/learn/javascript-cheat-sheet)
 * [JS Tips](./contents/js/js-tips.md)
@@ -100,6 +100,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
+* [Glossary](./contents/glossary.md)
 * [HTML character codes]('https://www.rapidtables.com/web/html/html-codes.html)
 * [HTTP common verbs using for REST](./contents/HTTP-REST-verbs.md)
 * [HTTP response status codes](./contents/HTTP-response-status-codes.md)
