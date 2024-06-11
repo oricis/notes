@@ -46,6 +46,10 @@ to the end of the README.md, f.e.
         │  │  └─ HTML-attr-role.md
         │  ├─ cms
 
+*Use the contents of the .gitignore to ignore files and directories,
+you must add the directory `.git/`and in the editor "settings.json" the next line:
+`"ProjectTree.loadIgnore": true`.*
+
 #### REST Client, Huachao Mao
 - REST Client for Visual Studio Code
 
