@@ -117,6 +117,9 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Node & Ubuntu Tips](./contents/node/node-ubuntu-tips.md)
 
+### PHP
+
+* [Lo nuevo en PHP 8.1](./contents/php/new-on-php-81.md)
 
 ### Resources
 
