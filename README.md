@@ -121,6 +121,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [Lo nuevo en PHP 8](./contents/php/new-on-php-80.md)
 * [Lo nuevo en PHP 8.1](./contents/php/new-on-php-81.md)
+* [Lo nuevo en PHP 8.2](./contents/php/new-on-php-82.md)
 
 ### Resources
 
