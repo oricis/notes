@@ -60,6 +60,11 @@ Si nombramos un argumento los siguientes deben ir también nombrados.
         }
     }
 
+Si la clase usará un trait donde de define la propiedad que se intenta "promover"
+en el constructor, deben cumplirse las siguientes condiciones:
+ - Ambas definiciones tendrán la misma visibilidad.
+ - Sólo puede asignarse un valor por defecto en el constructor.
+
 ***
 
 ### Tipos de unión
