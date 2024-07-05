@@ -62,6 +62,7 @@
     $start = Carbon::today()->subWeek()->startOfWeek(); // '2023-01-23 00:00:00'
     $end   = Carbon::today()->subWeek()->endOfWeek();   // '2023-01-29 23:59:59'
 
+
 ***
 
 [Go to index](../../README.md)

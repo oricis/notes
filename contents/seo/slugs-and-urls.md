@@ -7,16 +7,15 @@
  * Deben ser cortos
  * Deben leerse de forma natural
  * Incluir palabras clave / Que tengan relación con la página
- * Usar números sólo si tiene sentido
 
 
-> Normas básicas para los "URLs":
+> Normas básicas para los "URLs" (incluye las propias de los "slugs"):
 
  * Secciones separadas por barras
  * Usar sólo letras minúsculas, números, guiones y los caracteres propios
 (inicio con http:// o https:// puntos para subdominios / dominios y barras
 para separar secciones)
- * Ser cortas, coherentes con la estructura del contenido y leerse de forma natural
+ * Ser coherentes con la estructura del contenido
  * Usar números sólo si tiene sentido
 
 
@@ -65,6 +64,26 @@ Si la página está dedicada al huerto, con contenidos diversos pero relacionado
 donde se venden algunas cosas, podría ser:
 
     https://www.huerto.es/venta/zanahorias-colores
+
+***
+
+## Tag de título y meta-descripciones
+
+    <head>
+        <title>SEO tips and tricks | SEO checklist and tools in 2024</title>
+        <meta name="description" content="This is the ultimate SEO checklist..."></meta>
+    </head>
+
+El título debería ser de 52 a 60 caracteres y ser explicativo del contenido
+de la página.
+
+La meta-descripción debe incluir las palabras clave y un resumen del contenido
+y no exceder los 155 caracteres, longitud donde Google corta el texto.
+
+Otros meta-tags interesantes:
+
+    <meta name="keywords" content="SEO, Web, tips">
+    <meta name="author" content="John Doe">
 
 ***
 

@@ -54,6 +54,45 @@ The example:
     history
 
 
+## Install, remove, update, search packages
+
+> First, update the package list data:
+
+    sudo apt update
+
+*Maybe, some packages can to be upgraded:
+
+    ...
+    Leyendo lista de paquetes... Hecho
+    Creando árbol de dependencias... Hecho
+    Leyendo la información de estado... Hecho
+    Se pueden actualizar 14 paquetes. Ejecute «apt list --upgradable» para verlos.
+    ...
+
+> List upgradable packages:
+
+    apt list --upgradable
+
+> Upgrade packages:
+
+    sudo apt upgrade
+
+> Search a package:
+
+    apt search package_name
+
+Example:
+
+    apt search zurl
+    Ordenando... Hecho
+    Buscar en todo el texto... Hecho
+    zurl/jammy 1.11.1-1 amd64
+    HTTP client worker with ZeroMQ interface
+
+> Remove a package:
+
+    sudo apt remove package_name
+
 ***
 
 [Go to index](../../README.md)
