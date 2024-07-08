@@ -1,5 +1,7 @@
 # Novedades PHP 8.2
 
+***<a name="top-index">Contenidos:</a>***
+
  - Clases `readonly`
  - Nuevos tipos: `true`, `false` y `null`
  - Tipos de Forma Normal Disyuntiva (DNF)
@@ -10,6 +12,7 @@
  - Deprecación de las Propiedades Dinámicas
  - Eliminado Soporte para libmysql de mysqli
  - Nuevo atributo `SensitiveParameter`
+
 ***
 
 ### Clases `readonly`
@@ -53,6 +56,8 @@ y todos son automáticamente de sólo lectura.
     echo $foo->name;     // Foo
     echo $foo->age = 45; // Fatal error: Uncaught Error: Cannot create dynamic property...
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 ### Nuevos tipos: `true`, `false` y `null`
@@ -85,9 +90,13 @@ Ahora `true`, `false` y `null` son como los demás tipos:
 
     var_dump(foo(1 === 1, 1 !== 1)); // NULL
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 ### [Tipos de Forma Normal Disyuntiva (DNF)](https://www.php.net/releases/8.2/es.php#dnf_types)
+
+[ᐱ Top index](./new-on-php-82.md#top-index)
 
 ***
 
@@ -110,6 +119,8 @@ Ahora `true`, `false` y `null` son como los demás tipos:
 
 Se puede acceder a la constante a través de la clase.
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 ### [Nuevas funciones y métodos](https://www.php.net/manual/es/migration82.new-functions.php)
@@ -126,6 +137,8 @@ Nuevos métodos [`ZipArchive::getStreamIndex`](https://www.php.net/manual/es/zip
 Nuevo método [`ReflectionMethod::hasPrototype`](https://www.php.net/manual/es/reflectionmethod.hasprototype.php).
 
 Nuevas funciones <a href="https://www.php.net/manual/es/function.curl_upkeep.php"><code>curl_upkeep</code></a>, <a href="https://www.php.net/manual/es/function.memory-reset-peak-usage.php"><code>memory_reset_peak_usage</code></a>, <a href="https://www.php.net/manual/es/function.ini-parse-quantity.php"><code>ini_parse_quantity</code></a>, <a href="https://www.php.net/manual/es/function.libxml-get-external-entity-loader.php"><code>libxml_get_external_entity_loader</code></a>, <a href="https://www.php.net/manual/es/function.sodium-crypto-stream-xchacha20-xor-ic.php"><code>sodium_crypto_stream_xchacha20_xor_ic</code></a> y <a href="https://www.php.net/manual/es/function.openssl-cipher-key-length.php"><code>openssl_cipher_key_length</code></a>.
+
+[ᐱ Top index](./new-on-php-82.md#top-index)
 
 ***
 
@@ -166,6 +179,8 @@ Ejemplo:
 
     echo (new Random\Randomizer)->getInt(100,1000);
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 ### [Deprecación de las Propiedades Dinámicas](https://www.php.net/releases/8.2/es.php#deprecate_dynamic_properties)
@@ -186,9 +201,13 @@ Ejemplo:
 Declarar propiedades dinámicamente muestra una notificación de "deprecación"
 excepto si se usa el nuevo atriburo `#[\AllowDynamicProperties]`.
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 ### [Eliminado Soporte para libmysql de mysqli](https://php.watch/versions/8.2/mysqli-libmysql-no-longer-supported)
+
+[ᐱ Top index](./new-on-php-82.md#top-index)
 
 ***
 
@@ -222,6 +241,8 @@ Los parámetros marcados como `SensitiveParameter` no aparecen en las trazas
 (excepciones, trazas de [debug_backtrace](https://www.w3schools.com/php/func_error_debug_backtrace.asp),
 etc.).
 
+[ᐱ Top index](./new-on-php-82.md#top-index)
+
 ***
 
 Fuentes consultadas:
@@ -230,5 +251,7 @@ Fuentes consultadas:
  - https://www.php.net
 
 ***
+
+[ᐱ Top index](./new-on-php-82.md#top-index)
 
 [Go to index](../../README.md)

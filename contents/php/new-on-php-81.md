@@ -1,5 +1,7 @@
 # [Nuevas características en PHP 8.1](https://www.php.net/releases/8.1/es.php)
 
+***<a name="top-index">Contenidos:</a>***
+
 - Enumeraciones
 - Propiedades de solo lectura (readonly properties)
 - Tipo de retorno "never"
@@ -28,6 +30,10 @@
 
     // Print Weapon value (read only property access):
     echo Weapon::Spade->name . PHP_EOL; // Spade
+
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
+***
 
 #### Backed Enums.  Guardan un valor para cada caso (de tipo int o string)
 
@@ -121,6 +127,8 @@ Para más información:
 - https://www.php.net/manual/es/language.enumerations.php
 - https://php.watch/versions/8.1/enums
 
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
 ***
 
 ### [Propiedades de solo lectura (readonly properties)](https://www.php.net/releases/8.1/es.php#readonly_properties)
@@ -151,6 +159,8 @@ No se pueden cambiar después de la inicialización.
     $post->published = true;
     $post->published = false; // Fatal error: Uncaught Error: Cannot modify readonly property Post::$published ...
 
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
 ***
 
 ### [Tipo de retorno "never"](https://www.php.net/releases/8.1/es.php#never_return_type)
@@ -174,6 +184,8 @@ mientras que se usará `void` cuando se espera que el script continue.
         echo 'Hello'; // <- dead code detected by static analysis
     }
 
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
 ***
 
 #### [Constantes de clase final](https://www.php.net/releases/8.1/es.php#final_class_constants)
@@ -192,6 +204,8 @@ mientras que se usará `void` cuando se espera que el script continue.
 
 Una constante de clase puede declararse final, para que no pueda
 ser sobrescrita en las clases hijas.
+
+[ᐱ Top index](./new-on-php-81.md#top-index)
 
 ***
 
@@ -237,6 +251,8 @@ ser sobrescrita en las clases hijas.
 
     (new FooService())->doSomething();
 
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
 ***
 
 ### [Tipos de intersección pura](https://www.php.net/releases/8.1/es.php#pure_intersection_types)
@@ -260,6 +276,8 @@ ser sobrescrita en las clases hijas.
     $user->name = 'Foo';
     dumpUser($user);
 
+
+[ᐱ Top index](./new-on-php-81.md#top-index)
 
 ***
 
@@ -311,6 +329,8 @@ Funciona de forma similar a [`imagepng()`](https://www.php.net/manual/es/functio
 
 ***NOTA:** Linux implementa las funciones homónimas `fsync` y `fdatasync`.*
 
+[ᐱ Top index](./new-on-php-81.md#top-index)
+
 ***
 
 Fuentes consultadas:
@@ -320,5 +340,7 @@ Fuentes consultadas:
 
 
 ***
+
+[ᐱ Top index](./new-on-php-81.md#top-index)
 
 [Go to index](../../README.md)

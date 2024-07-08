@@ -1,18 +1,20 @@
 # [Nuevas características en PHP 8.0](https://www.php.net/releases/8.0/es.php)
 
-- Argumentos nombrados
-- Promoción de propiedades constructivas
-- Tipos de unión
-- Expresiones match
-- Operador Nullsafe
-- Mejoras en los mensajes de error de funciones internas
-- Usar `::class` con objetos
-- Nuevas funciones
-- Otros cambios
+***<a name="top-index">Contenidos:</a>***
+
+- [Argumentos nombrados](./new-on-php-80.md#named-arguments)
+- [Promoción de propiedades constructivas](./new-on-php-80.md#constructor-property-promotion)
+- [Tipos de unión](./new-on-php-80.md#union-types)
+- [Expresiones match](./new-on-php-80.md#match-expression)
+- [Operador Nullsafe](./new-on-php-80.md#nullsafe-operator)
+- [Mejoras en los mensajes de error de funciones internas](./new-on-php-80.md#type-errors-for-internal-functions)
+- [Usar `::class` con objetos](./new-on-php-80.md#objects-with-class)
+- [Nuevas funciones](./new-on-php-80.md#new-functions)
+- [Otros cambios](./new-on-php-80.md#changes)
 
 ***
 
-### Argumentos nombrados
+### <a name="named-arguments">Argumentos nombrados</a>
 
     <?php
 
@@ -35,9 +37,13 @@ Antes, para indicar sólo el 2 argumento debíamos incluir el primero vacío.
 Ahora se indican los parámetros requeridos (si los hubiera) y cada uno de los opcionales que requerimos nombrándolos, su orden es irrelevante y se documentan automáticamente.
 Si nombramos un argumento los siguientes deben ir también nombrados.
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
 ***
 
-### [Promoción de propiedades constructivas](https://www.php.net/releases/8.0/es.php#constructor-property-promotion)
+### <a name="constructor-property-promotion">Promoción de propiedades constructivas</a>
+
+[Doc oficial](https://www.php.net/releases/8.0/es.php#constructor-property-promotion)
 
     <?php
 
@@ -65,9 +71,11 @@ en el constructor, deben cumplirse las siguientes condiciones:
  - Ambas definiciones tendrán la misma visibilidad.
  - Sólo puede asignarse un valor por defecto en el constructor.
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
 ***
 
-### Tipos de unión
+### <a name="union-types">Tipos de unión</a>
 
     <?php
 
@@ -103,9 +111,13 @@ en el constructor, deben cumplirse las siguientes condiciones:
 
     Number::set('NaN'); // Fatal error: ...
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
 ***
 
-### [Expresiones match](https://www.php.net/releases/8.0/es.php#match-expression)
+### <a name="match-expression">Expresiones match</a>
+
+[Doc oficial](https://www.php.net/releases/8.0/es.php#match-expression)
 
     <?php
 
@@ -140,7 +152,11 @@ La expresión `match` es similar a `switch`, con las siguientes características
  - Soporta expresiones de una línea y no necesitan declarar un `break`.
  - Las comparaciones son estrictas, lo que evita errores.
 
-### Operador Nullsafe
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
+***
+
+### <a name="nullsafe-operator">Operador Nullsafe</a>
 
     <?php
 
@@ -178,9 +194,11 @@ Antes: `{{ $user ? $user->phone : '' }}`
 
 Ahora: `{{ $user?->phone }}`
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
 ***
 
-### Mejoras en los mensajes de error de funciones internas
+### <a name="type-errors-for-internal-functions">Mejoras en los mensajes de error de funciones internas</a>
 
     <?php
 
@@ -201,7 +219,11 @@ Ahora: `{{ $user?->phone }}`
 
 Ahora la mayoría de los errores de funciones internas puedes gestionarse con excepciones.
 
-### Usar `::class` con objetos
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
+***
+
+### <a name="objects-with-class">Usar `::class` con objetos</a>
 
 Antes sólo era posible `Foo::class` o `get_class((new Foo))`para obtener
 el nombre de la clase (con su namespace), ahora además se puede usar sobre
@@ -219,7 +241,11 @@ la instancia de la clase: `(new Foo)::class`.
     echo get_class(new FooPopo) . PHP_EOL; // App\Misc\POPOs\FooPopo
     echo (new FooPopo)::class . PHP_EOL;   // App\Misc\POPOs\FooPopo
 
-### Nuevas funciones
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
+***
+
+### <a name="new-functions">Nuevas funciones</a>
 
 #### [`str_contains(string $haystack, string $needle): bool`](https://wiki.php.net/rfc/str_contains)
 
@@ -251,9 +277,11 @@ la instancia de la clase: `(new Foo)::class`.
 
 #### [`get_resource_id(resource $resource): int` - Devuelve un identificador de tipo `int` para el recurso](https://www.php.net/manual/en/function.get-resource-id.php)
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
+
 ***
 
-### Cambios
+### <a name="changes">Cambios</a>
 
 #### [Nueva interfaz `Stringable`](https://wiki.php.net/rfc/stringable)
 
@@ -265,6 +293,7 @@ Ahora `PhpToken::getAll()` reemplaza al uso de `token_get_all()`.
 Se devuelve un array de objetos `PhpToken` en lugar del mix *strings*
 y *arrays* de la función anterior, con mejoras de legibilidad y uso de memoria.
 
+[ᐱ Top index](./new-on-php-80.md#top-index)
 
 ***
 Fuentes consultadas:
@@ -273,5 +302,7 @@ Fuentes consultadas:
 
 
 ***
+
+[ᐱ Top index](./new-on-php-80.md#top-index)
 
 [Go to index](../../README.md)
