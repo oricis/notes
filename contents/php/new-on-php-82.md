@@ -254,4 +254,12 @@ Fuentes consultadas:
 
 [ᐱ Top index](./new-on-php-82.md#top-index)
 
+[Lo nuevo en PHP 8](./new-on-php-80.md)
+
+[Lo nuevo en PHP 8.1](./new-on-php-81.md)
+
+[Lo nuevo en PHP 8.3](./new-on-php-83.md)
+
+***
+
 [Go to index](../../README.md)
