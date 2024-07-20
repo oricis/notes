@@ -35,4 +35,10 @@
 
 ***
 
+[Comandos màs usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales)
+
+[Git tips](./contents/git/git-tips.md)
+
+***
+
 [Go to index](../../README.md)
