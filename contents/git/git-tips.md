@@ -1,8 +1,10 @@
 # Git Tips
 
+Ver el [listado de comandos más usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales).
+
 ***
 
-## Tags de Git
+## Etiquetas en Git (Tags)
 
 * Ver tags (sólo lista nombres):
 
@@ -69,6 +71,12 @@
 	git reset HEAD~1
 	git push -f
 
+
+***
+
+[Comandos màs usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales)
+
+[Ramas en Git](./contents/git/git-branches.md)
 
 ***
 

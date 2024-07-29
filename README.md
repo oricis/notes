@@ -34,6 +34,13 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Installing Typo3 / LAMP](./contents/cms/install-typo3.md)
 
 
+### Git
+
+ * [Comandos màs usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales)
+ * [Git tips](./contents/git/git-tips.md)
+ * [Ramas en Git](./contents/git/git-branches.md)
+
+
 ### JavaScript
 
 * [Date and Time](./contents/js/js-times.md)
