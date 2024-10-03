@@ -216,6 +216,17 @@ Se puede añadir el nuevo enlace simbólico, p.e.:
 
 	systemctl list-units --type=service
 
+> Abrir panel de configuración de dispositivos (promero instalar)
+
+	sudo apt install gnome-control-center
+	gnome-control-center
+
+*Desde el menú: Preferencias / Configuración*
+
+> Solucionar "no hay micrófono integrado" (por ejemplo, después de una actualización)
+
+Comprobar que el fichero: */etc/modprobe.d/alsa-base.conf*
+incluye la línea: `options snd-hda-intel dmic_detect=0`. Añadir en caso necesario y reiniciar. Abrir la configuración de dispositivos y comprobar micrófono y su volumen.
 
 ***
 

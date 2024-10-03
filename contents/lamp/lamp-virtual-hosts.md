@@ -3,6 +3,9 @@
 To open `/var/www/html/yoursite/index.html` directly with,
 for example, `yoursite.local`, we need create a virtual host.
 
+> List available virtual host (Ubuntu / Debian):
+
+    apache2ctl -S
 
 > Create the directory, take the control and add the index file:
 
