@@ -99,6 +99,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Laravel - Cloning and running existing Apps](./contents/laravel/laravel-run-from-repo.md)
 * [Laravel - Miscellaneous](./contents/laravel/miscellaneous.md)
 * [Laravel 7 - Tests structure](./contents/laravel/laravel-tests.md)
+* [Laravel 11 - Rutas: Livewire, Sanctum, Fortify](./contents/laravel/laravel-special-routes.md)
 * [Laravel environment in Ubuntu 18.04](./contents/laravel/ubuntu-LAMP_and_laravel.md)
 * [PHP Carbon Tips](./contents/php/carbon-tips.md)
 
