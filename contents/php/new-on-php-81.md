@@ -2,24 +2,25 @@
 
 ***<a name="top-index">Contenidos:</a>***
 
-- Enumeraciones
-- Propiedades de solo lectura (readonly properties)
-- Tipo de retorno "never"
-- Constantes de clase final
-- Expresión "new" en el constructor
-- Tipos de intersección pura
-- Fivers
-- Nuevas funciones
+- [Enumeraciones](./new-on-php-81.md#enums)
+- [Propiedades de solo lectura (readonly properties)](./new-on-php-81.md#readonly-properties)
+- [Tipo de retorno "never"](./new-on-php-81.md#never-type)
+- [Constantes de clase final](./new-on-php-81.md#final-constants)
+- [Expresión "new" en el constructor](./new-on-php-81.md#new-on-constructor)
+- [Tipos de intersección pura](./new-on-php-81.md#pure-intersection-types)
+- [Fivers](./new-on-php-81.md#fivers)
+- [Nuevas funciones](./new-on-php-81.md#new-functions)
 
 ***
 
-### [Enumeraciones](https://www.php.net/manual/es/language.enumerations.php)
+### <a href="https://www.php.net/manual/es/language.enumerations.php" name="enums">Enumeraciones</a>
 
 [Enumeraciones básicas (EN)](https://www.php.net/manual/es/language.enumerations.basics.php)
 
     <?php
 
-    enum Weapon {
+    enum Weapon
+    {
         case Bow;
         case Shovel;
         case Lance;
@@ -39,7 +40,8 @@
 
     <?php
 
-    enum AddressType: string {
+    enum AddressType: string
+    {
         case delivery = 'Delivery Address';
         case invoice  = 'Invoice Address'; // Billing Addreess
     }
@@ -57,7 +59,8 @@ usada con un *Enum*.
 
     <?php
 
-    enum AddressType: string {
+    enum AddressType: string
+    {
         case delivery = 'Delivery Address';
         case invoice  = 'Invoice Address'; // Billing Addreess
     }
@@ -79,7 +82,8 @@ para evitarlo y obtener `null` se usa el método "tryFrom":
 
     <?php
 
-    enum RoleName {
+    enum RoleName
+    {
         case admin;
         case employee;
         case user;
@@ -96,10 +100,12 @@ para evitarlo y obtener `null` se usa el método "tryFrom":
 
     <?php
 
-    interface FooInterface {
+    interface FooInterface
+    {
 
     }
-    enum Foo: string implements FooInterface {
+    enum Foo: string implements FooInterface
+    {
         case name = 'Foo';
         case access = 'Admin';
     }
@@ -116,7 +122,8 @@ El siguiente ejemplo produce un error fatal:
 
     <?php
 
-    enum Kon {
+    enum Kon
+    {
     }
 
     // Fatal error: Class Chita cannot extend final class Kon ...
@@ -131,7 +138,7 @@ Para más información:
 
 ***
 
-### [Propiedades de solo lectura (readonly properties)](https://www.php.net/releases/8.1/es.php#readonly_properties)
+### <a href="https://www.php.net/releases/8.1/es.php#readonly_properties" name="readonly-properties">Propiedades de sólo lectura (readonly properties)</a>
 
 No se pueden cambiar después de la inicialización.
 
@@ -163,7 +170,7 @@ No se pueden cambiar después de la inicialización.
 
 ***
 
-### [Tipo de retorno "never"](https://www.php.net/releases/8.1/es.php#never_return_type)
+### <a href="https://www.php.net/releases/8.1/es.php#never_return_type" name="never-type">Tipo de retorno "never"</a>
 
 Indica que *no devolverá un valor* y ***producirá una excepción o finalizará***
 ***la ejecución del script*** con una llamada de `die()`, `exit()`,
@@ -188,7 +195,7 @@ mientras que se usará `void` cuando se espera que el script continue.
 
 ***
 
-#### [Constantes de clase final](https://www.php.net/releases/8.1/es.php#final_class_constants)
+#### <a href="https://www.php.net/releases/8.1/es.php#final_class_constants" name="final-constants">Constantes de clase final</a>
 
     <?php
 
@@ -209,7 +216,7 @@ ser sobrescrita en las clases hijas.
 
 ***
 
-### [Expresión "new" en el constructor](https://www.php.net/releases/8.1/es.php#new_in_initializers)
+### <a href="https://www.php.net/releases/8.1/es.php#new_in_initializers" name="new-on-constructor">Expresión "new" en el constructor</a>
 
     <?php
 
@@ -255,7 +262,7 @@ ser sobrescrita en las clases hijas.
 
 ***
 
-### [Tipos de intersección pura](https://www.php.net/releases/8.1/es.php#pure_intersection_types)
+### <a href="https://www.php.net/releases/8.1/es.php#pure_intersection_types" name="pure-intersection-types">Tipos de intersección pura</a>
 
     <?php
 
@@ -281,11 +288,11 @@ ser sobrescrita en las clases hijas.
 
 ***
 
-### [Fibers](https://www.php.net/manual/es/language.fibers.php)
+### <a href="https://www.php.net/manual/es/language.fibers.php" name="fivers">Fibers</a>
 
 ***
 
-### Nuevas funciones
+### <a name="new-functions">Nuevas funciones</a>
 
 #### [array_is_list(bool $arr): bool](https://www.php.net/manual/en/function.array-is-list.php)
 
