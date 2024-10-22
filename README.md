@@ -177,6 +177,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [VisualSC - Extensions 2024](./contents/tools/editors/2024-vsc-extensions.md)
 * [VisualSC - Key Bindings (for Linux)](./contents/tools/editors/visualsc-keybindings.md)
 * [VisualSC - User settings (JSON)](./contents/tools/editors/user-settings-visualsc.json)
+* [VisualSC - Tips](./contents/tools/editors/visualsc-tips.md)
 
 ### Web Design
 
