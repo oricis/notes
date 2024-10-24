@@ -43,10 +43,13 @@ Main commands, similarities and differences between
 | Add flex layour |                 | Shift + A
 
 *NOTE: when set the object opacity the 0 is used to set opacity to 100%.*
+
 *NOTE: Figma keyboard shortcuts are available clicking the ? button on the botton right.*
+
 *NOTE: Figma frames are containers where design the screens, f.e. it's possible*
 *to choose some popular screen sizes to create the prototypes for this screens.*
 *One "page" can content multiple frames, on Penpot the design unit is the page.*
+
 *NOTE: when copy & paste one element on Figma, this will be placed over the original one.*
 
 ***
@@ -58,6 +61,7 @@ Main commands, similarities and differences between
 The groups must be included into a frame.
 Choose the frame.
 Use the mouse right button to open options menu.
+
 // TODO:
 
 [Go to index](../../README.md)
