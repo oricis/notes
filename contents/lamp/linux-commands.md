@@ -35,6 +35,19 @@ or:
 
     find *name.type
 
+> List the trash files
+
+    ls ~/.local/share/Trash/files/
+
+*If the trash is empty the "files" directory isn't accessible (doesn't exist).*
+
+> Remove the trash contents
+
+    rm -rf ~/.local/share/Trash/*
+
+
+## Command aliases
+
 > Set alias to a command (actual terminal session)
 
 The syntax:
@@ -92,6 +105,7 @@ Example:
 > Remove a package:
 
     sudo apt remove package_name
+
 
 ***
 

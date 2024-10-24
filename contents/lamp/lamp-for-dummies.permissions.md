@@ -134,6 +134,10 @@ Así el 7 equivale a 421 o el 6 a 720.
 
 ### Información sobre los grupos de usuarios
 
+> ¿Que usuario soy?
+
+    whoami
+
 > ¿En que grupos estoy?
 
     groups
@@ -145,6 +149,27 @@ Así el 7 equivale a 421 o el 6 a 720.
 > ¿Que usuarios tiene el grupo "foo"?
 
     getent group foo
+
+### Crear grupo y añadir usuarios
+
+1. Crear grupo:
+
+        sudo groupadd foogroup
+
+2. Añadir el "usuario actual" al grupo:
+
+        sudo usermod -aG foogroup $USER
+
+*Si quieres añadir otro usuario, p.e. de nombre "foo",*
+*sustituye `$USER` por `foo`.*
+
+3. Activar cambios para el grupo:
+
+        newgrp foogroup
+
+4. Ver que el "usuario actual" esta en el grupo "foogroup":
+
+        groups
 
 ***
 
