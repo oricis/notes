@@ -95,4 +95,16 @@ Example:
 
 ***
 
+## Running
+
+> Show applications and ports (Ubuntu TCP and UDP ports)
+
+    sudo netstat -tlnp
+
+for IPv6:
+
+    sudo netstat -tulnp
+
+***
+
 [Go to index](../../README.md)
