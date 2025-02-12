@@ -65,14 +65,12 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### LAMP
 
 * [Apache2 errors](./contents/lamp/apache-errors.md)
-* [Bash aliases](./contents/lamp/bash-aliases.md)
 * [Composer](./contents/lamp/composer.md)
 * [Configuration LAMP / Create virtual hosts](./contents/lamp/lamp-settings.md#create-virtual-hosts)
 * [Configuration LAMP / phpMyAdmin](./contents/lamp/lamp-phpmyadmin.md)
 * [Configuration LAMP](./contents/lamp/lamp-settings.md)
 * [LAMP for dummies. Permissions](./contents/lamp/lamp-for-dummies.permissions.md)
 * [LAMP for dummies](./contents/lamp/lamp-for-dummies.md)
-* [Linux commands](./contents/lamp/linux-commands.md)
 * [MySQL - Force the root access](./contents/lamp/mysql-force_the_root_access.md)
 * [MySQL Backups](./contents/lamp/mysql-backups.md)
 * [MySQL Commands](./contents/lamp/mysql-cli-commands.md)
@@ -85,6 +83,8 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### LAMP - UBUNTU
 
 * [Bash aliases](./contents/lamp/bash-aliases.md)
+* [Keyboard shortcuts](./ubuntu-shortcuts.md)
+* [Linux commands](./contents/lamp/linux-commands.md)
 * [Ubuntu - Install Node choosing the version](https://www.hostinger.es/tutoriales/instalar-node-js-ubuntu/)
 * [Ubuntu for dummies](./contents/lamp/so/ubuntu-for-dummies.md)
 * [Ubuntu security: tools and tips](./contents/so/ubuntu-security-basis.md)

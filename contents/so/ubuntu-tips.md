@@ -13,6 +13,7 @@
 9.  Who I am?
 10. DNS
 11. Repositories
+12. [Keyboard shortcuts](./ubuntu-shortcuts.md)
 
 
 *Commands for the bash shell.*
