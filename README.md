@@ -111,6 +111,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 ### Miscellaneous
 
+* [App architectures](./contents/app-architectures.md)
 * [Bootstrap-cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 * [Code Style](./contents/code-styles.md)
 * [Glossary](./contents/glossary.md)
@@ -143,6 +144,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [JS vs PHP - Common used methods](./contents/resources/JSvsPHP-common-methods.md)
 * [My gists](https://gist.github.com/oricis)
 * [Online tools](./contents/resources/online-tools.md)
+* [Github shortcuts](https://docs.github.com/en/get-started/accessibility/keyboard-shortcuts)
 
 
 ### Security
