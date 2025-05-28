@@ -79,4 +79,29 @@ y reiniciar Apache:
 
 ***
 
+## No funciona `env('MY_KEY')`
+
+Si tu fichero ".env" contiene la clave a la que intentas acceder,
+has podido cachear la configuración, p.e. con:
+
+    php artisan config:cache
+
+o más probablemente:
+
+    php artisan optimize
+
+Después de esto, Laravel deja de leer el archivo ".env" y devuelve `null`.
+
+Para solucionar el problema borra la caché de configuración:
+
+    php artisan config:clear
+
+NOTA IMPORTANTE: la función `env()` no debe usarse fuera de los ficheros
+del directorio "config/". Para evitar este problema, añade la clave que
+requieres en un fichero de configuración, cachea la configuración
+y usa `config()` en lugar de `env()` para acceder al valor requerido.
+
+
+***
+
 [Go to index](../../README.md)
