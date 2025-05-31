@@ -94,6 +94,30 @@ Content to create a ReactJS container:
 Use the official Node.js image, based on Alpine Linux, using Node 14.
 The workdir is especified as `/usr/src/app` that exist in the docker image.
 
+***
+
+## Useful commands
+
+> Show running containers
+
+    docker ps
+
+> Stop a running container
+
+    docker stop [container_id]
+
+> Remove all stopped containers
+
+    docker rm $(docker ps -a -q)
+
+> Show images
+
+    docker images
+
+> Remove all unused Docker images
+
+    docker image prune -a
+
 
 ***
 
