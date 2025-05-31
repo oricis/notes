@@ -50,6 +50,19 @@ Example:
 
 ***
 
+## Checking system stuff
+
+Find the process currently using a port, f.e. port number 8080:
+
+    sudo lsof -i :8080
+
+To kill the process use the PID number, f.e., 557:
+
+    sudo kill 557
+
+
+***
+
 ## Installed PHP
 
 ## Show PHP version in use
