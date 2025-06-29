@@ -3,6 +3,7 @@
 This repository is a hotchpotch for notes about several languages and technologies
 
 ***
+
 ## Contents
 
 ### Accessibility
@@ -13,33 +14,27 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [HTML attr: role](./contents/accessibility/HTML-attr-role.md)
 * [Wai-aria Practices](https://www.w3.org/TR/wai-aria-practices/)
 
-
 ### API
 
- * [OpenApi (Swagger)](./contents/api/open-api.md)
-
+* [OpenApi (Swagger)](./contents/api/open-api.md)
 
 ### Containers
 
 * [Docker - The basics](./contents/containers/docker-basics.md)
 
-
 ### CSS
 
 * [Generic reset CSS](https://raw.githubusercontent.com/oricis/notes/master/contents/css/reset.css)
-
 
 ### CMS
 
 * [Installing Typo3 / LAMP](./contents/cms/install-typo3.md)
 
-
 ### Git
 
- * [Comandos màs usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales)
- * [Git tips](./contents/git/git-tips.md)
- * [Ramas en Git](./contents/git/git-branches.md)
-
+* [Comandos màs usados de Git](https://www.ironwoods.es/blog/git/comandos-habituales)
+* [Git tips](./contents/git/git-tips.md)
+* [Ramas en Git](./contents/git/git-branches.md)
 
 ### JavaScript
 
@@ -60,7 +55,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [# Get starter: React JSX + lingui i18n - Instructions](./contents/js/react/react&lingui.md)
 * [# Get starter: React JSX + lingui i18n - Repository](https://github.com/oricis/react_jsx__lingui_i18n)
 * [Typescript - First steps](./contents/typescript/typescript-start.md)
-
 
 ### LAMP
 
@@ -91,7 +85,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Ubuntu tips](./contents/so/ubuntu-tips.md)
 * [Ubuntu - working with files and directories](./contents/so/ubuntu-files-and-directories.md)
 
-
 ### Laravel
 
 * [Errores comunes](./contents/laravel/laravel-errors.md)
@@ -104,11 +97,9 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Laravel validatios](./contents/laravel/laravel-validations.md)
 * [PHP Carbon Tips](./contents/php/carbon-tips.md)
 
-
 ### Markdown
 
 * [Markdown Tips](./contents/markdown/markdown.md)
-
 
 ### Miscellaneous
 
@@ -124,9 +115,9 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Quality Code Metrics](./contents/quality-code-metrics.md)
 * [Run Windows games & Apps on Linux](./contents/play-on-linux.md)
 * [Social colors](https://www.materialui.co/socialcolors)
+* [Solar energy notes](./contents/solar/inverters.md)
 * [TODO Words](./contents/todo-words.md)
 * [Use libraries from Github projects](./contents/github-raw-files.md)
-
 
 ### Node
 
@@ -147,26 +138,22 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [Online tools](./contents/resources/online-tools.md)
 * [Github shortcuts](https://docs.github.com/en/get-started/accessibility/keyboard-shortcuts)
 
-
 ### Security
 
- * [Clickjacking Defense Script](./contents/security/frame-breaker-script.md)
- * [htaccess - Setting HTTP headers](./contents/security/htaccess-http-headers.md)
-
+* [Clickjacking Defense Script](./contents/security/frame-breaker-script.md)
+* [htaccess - Setting HTTP headers](./contents/security/htaccess-http-headers.md)
 
 ### SEO
 
- * [Documentación de la herramienta de datos estructurados de Google: revisión de resultados, tipos soportados, etc.](https://support.google.com/webmasters/answer/7445569)
- * [schema.org using Microdata](https://schema.org/docs/gs.html)
- * [Slugs y URLs](./contents/seo/slugs-and-urls.md)
-
+* [Documentación de la herramienta de datos estructurados de Google: revisión de resultados, tipos soportados, etc.](https://support.google.com/webmasters/answer/7445569)
+* [schema.org using Microdata](https://schema.org/docs/gs.html)
+* [Slugs y URLs](./contents/seo/slugs-and-urls.md)
 
 ### Testing
 
- * [Cypress doc](https://docs.cypress.io/)
- * [Cypress commands](./contents/testing/cypress.md)
- * [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-
+* [Cypress doc](https://docs.cypress.io/)
+* [Cypress commands](./contents/testing/cypress.md)
+* [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 
 ### Tools
 
@@ -189,7 +176,6 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [HTML required "input hidden"](./contents/html/input-hidden-required.md)
 * [HTML Living Standard - Forms](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html)
 * [Mozilla Developers - HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
-
 
 ***
 ***
