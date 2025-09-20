@@ -25,6 +25,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 ### CSS
 
 * [Generic reset CSS](https://raw.githubusercontent.com/oricis/notes/master/contents/css/reset.css)
+* [Tailwind CheatSheet](./contents/css/tailwind-cheatsheet.md)
 
 ### CMS
 
