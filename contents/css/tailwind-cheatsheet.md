@@ -75,7 +75,35 @@ Example:
 
     <div class="hover:cursor-pointer">Lorem ipsump</div>
 
-## Font sizes
+## Fonts
+
+### Font style
+
+| Class      | Styles                |
+| ---------- | --------------------- |
+| italic     |  font-style: italic   |
+| not-italic |  font-style: normal   |
+
+### Font weight
+
+    font-thin (100)
+    font-extralight (200)
+    font-light (300)
+    font-normal (400)
+    font-medium (500)
+    font-semibold (600)
+    font-bold (700)
+    font-extrabold (800)
+    font-black (900)
+
+*also can use numeric font weights classes:
+
+    font-100
+    font-200
+    font-300
+    ...
+
+### Font sizes
 
 | Class        | Styles                                           |
 | ------------ | ------------------------------------------------ |
