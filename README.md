@@ -18,6 +18,10 @@ This repository is a hotchpotch for notes about several languages and technologi
 
 * [OpenApi (Swagger)](./contents/api/open-api.md)
 
+### DB
+
+* [MySql useful functions to set data on inserts and updates](./contents/db/mysql-useful-functions.md)
+
 ### Containers
 
 * [Docker - The basics](./contents/containers/docker-basics.md)
