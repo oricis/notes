@@ -123,6 +123,23 @@ Example:
 | text-(length:\<custom-property\>) | font-size: var(\<custom-property\>); |
 | text-[\<value\>] | font-size: \<value\>; |
 
+## Effects
+
+### Opacity
+
+| Class                       | Styles                           |
+| --------------------------- | -------------------------------- |
+| opacity-100                 | opacity: 100%;                   |
+| opacity-75                  | opacity: 75%;                    |
+| opacity-50                  | opacity: 50%;                    |
+| opacity-25                  | opacity: 25%;                    |
+| opacity-[1]                 | opacity: 100%;                   |
+| opacity-[.75]               | opacity: 75%;                    |
+| opacity-[.50]               | opacity: 50%;                    |
+| opacity-[.25]               | opacity: 25%;                    |
+| opacity-[.20]               | opacity: 20%;                    |
+
+
 ***
 
 [Go to index](../../README.md)
