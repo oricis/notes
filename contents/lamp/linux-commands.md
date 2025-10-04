@@ -106,6 +106,20 @@ Example:
 
     sudo apt remove package_name
 
+***NOTE:** by default all the packages will be upgrade, to avoid a package will be*
+*upgrade put it on "hold":*
+
+> Avoid a concrete package won't be update/upgrade (set packages on hold):
+
+    sudo apt-mark hold <package_name>
+
+> Check the packages on hols:
+
+    apt-mark showhold
+
+> Remove from hold (and allow again upgrades):
+
+    sudo apt-mark unhold <package_name>
 
 ***
 
