@@ -16,12 +16,12 @@
 
 *From: https://askubuntu.com/a/46371/1036442*
 
-> Add your user to the group www-data:
+> Add your user to the group www-data or your server's user:
 
     sudo gpasswd -a "$USER" www-data
 
 
-> Set the permissions to the group www-data:
+> Set the permissions to the group www-data or your server's user:
 
     sudo chown -R "$USER":www-data /var/www/html
     find /var/www/html -type f -exec chmod 0660 {} \;
@@ -30,8 +30,16 @@
 
 > Set other permisions:
 
-    sudo chmod -R 777 /var/www/html/laravel/cms/storage
-    sudo chmod -R 777 /var/www/html/laravel/cms/bootstrap/cache/
+    # Set directories to 775 (rwxrwxr-x)
+    sudo find storage -type d -exec chmod 775 {} \;
+    sudo find bootstrap/cache -type d -exec chmod 775 {} \;
+
+    # Set files to 664 (rw-rw-r--)
+    sudo find storage -type f -exec chmod 664 {} \;
+    sudo find bootstrap/cache -type f -exec chmod 664 {} \;
+
+    # Replace www-data with your server's user if different
+    sudo chown -R $USER:www-data storage bootstrap/cache
 
 
 ## 4. Commited the files
