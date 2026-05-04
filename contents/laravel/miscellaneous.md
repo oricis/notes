@@ -1,5 +1,12 @@
 # Miscelaneous - Laravel
 
+## Request
+
+> How to get info:
+
+https://g.co/gemini/share/9e1d1bebeedf
+https://g.co/gemini/share/36b6fa6be1a7
+
 ## Mutators
 
 > Mutator for pw
@@ -21,8 +28,7 @@
 
 ### FKs
 
-    // From:
-    // https://laravel.com/docs/7.x/migrations#foreign-key-constraints
+*From: https://laravel.com/docs/7.x/migrations#foreign-key-constraints*
 
 Add foreign keys with:
 
@@ -84,9 +90,36 @@ Plus, get the "loaded" model relations:
 
 ***
 
+## Up a dev environment with Laradock
+
+> Stop local services
+
+    sudo systemctl stop mysql
+    sudo systemctl stop apache2
+    sudo systemctl stop nginx
+
+> Open the laradoc directory and up the docker containers
+
+    cd laradock
+    docker-compose up -d nginx mysql phpmyadmin redis workspace
+
+***
+
+## Organize models code techniques
+
+https://g.co/gemini/share/ca1e274bedc1
+
+***
+
 ## Package development
 
 [Set composer files to local package development](https://g.co/gemini/share/3389e06c1b44)
+
+***
+
+## Larave attributes
+
+[Larave 13+ attributes list](https://github.com/MrPunyapal/laravel-attributes-list)
 
 ***
 
