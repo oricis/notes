@@ -13,7 +13,7 @@ This repository is a hotchpotch for notes about several languages and technologi
 * [HTML5 - Structure](https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/estructura)
 * [HTML attr: role](./contents/accessibility/HTML-attr-role.md)
 * [Wai-aria Practices](https://www.w3.org/TR/wai-aria-practices/)
-
+* [Tailwind buttons to follow accessibility standard in Europe](./contents/accessibility/tailwind-buttons-follow-wcag-2.1.md)
 ### API
 
 * [OpenApi (Swagger)](./contents/api/open-api.md)
